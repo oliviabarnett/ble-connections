@@ -23,7 +23,21 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-    }
+      "bundleIdentifier": "com.connectedcopper.bleconnections",
+      "supportsTablet": true,
+      "publishBundlePath": "ios/ble-app/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/ble-app/Supporting/shell-app-manifest.json"
+    },
+    "android": {
+      "package": "com.connectedcopper.bleconnections",
+      "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
+      "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
+    },
+    "isDetached": true,
+    "detach": {
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.10.2-sdk32.0.0-c59c23cd-1d49-49d2-a633-d03f9d554cf6.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.10.3-sdk32.0.0-ed1efe35-b32f-4341-9777-d772d1dfd9ea.tar.gz"
+    },
+    "scheme": "exp8d434ca3d4734e3a8046daa6e14f28e2"
   }
 }
