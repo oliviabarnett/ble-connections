@@ -34,67 +34,62 @@ function arrayBufferToHex(buffer) {
 export default class App extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props);
+    this.manager = new BleManager();
     this.state = {
       text: []
     };
   }
 
-  componentDidMount() {
-    const manager = new BleManager();
-    manager.onStateChange(newState => {
-      if (newState != "PoweredOn") return;
-      this._log("Started scanning...");
-      manager.startDeviceScan(
-        null, // AFC672E8-6CA4-4252-BE86-B6F20E3F7467
-        {
-          allowDuplicates: true
-        },
-        (error, device) => {
-          if (error) {
-            this._logError("SCAN", error);
-            return;
-          }
-          if (device.name == "CC_BLE"){
-            this._log("Device: " + device.name, device);
-            this._log("UUID: " + device.serviceUUIDs, device);
-            this._log("id: " + device.id, device);
-            console.log(device);
-            manager.stopDeviceScan()
-          }
-          
-        }
-      );
+  componentWillMount() {
+    console.log("mounted")
+    const subscription = this.manager.onStateChange((state) => {
+      if (state ==='PoweredOn') {
+        this.scanAndConnect();
+        subscription.remove();
+      }
     }, true);
   }
 
-  getServicesAndCharacteristics(device) {
-    return new Promise((resolve, reject) => {
-        device.services().then(services => {
-            const characteristics = [];
-            services.forEach((service, i) => {
-                service.characteristics().then(c => {
-                    characteristics.push(c);
-                    if (i === services.length - 1) {
-                        const temp = characteristics.reduce(
-                            (acc, current) => {
-                                return [...acc, ...current]
-                            },
-                            []
-                        );
-                        const dialog = temp.find(
-                            characteristic =>
-                                characteristic.isWritableWithoutResponse
-                        );
-                        if (!dialog) {
-                            reject('No writable characteristic')
-                        }
-                        resolve(dialog)
-                    }
-                })
-            })
-        })
-    })
-}
+  scanAndConnect() {
+    this._log("Started scanning...");
+    this.manager.startDeviceScan(null, null, (error, device) => {
+        if (error) {
+            // Handle error (scanning will be stopped automatically)
+            this._logError("SCAN", error);
+            return
+        }
+
+        // Check if it is a device you are looking for
+        if (device.name === 'CC_BLE'){
+            this._log("Device: " + device.name, device);
+            this._log("UUID: " + device.serviceUUIDs, device);
+            this._log("id: " + device.id, device);
+            // Stop scanning as it's not necessary if you are scanning for one device.
+            this.manager.stopDeviceScan();
+            // Proceed with connection.
+            device.connect()
+              .then((device) => {
+                this._log("Discovering services and characteristics");
+                return device.discoverAllServicesAndCharacteristics()
+              })
+              .then((device) => {
+                this._log("Writing to: ")
+                this._log(device.name)
+                // device.writeCharacteristicWithResponseForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', 'B042EA6D-CC2E-4B53-A8BB-D14785AF9A2B', 'SGVsbG8gZnJpZW5k')
+                // .then((characteristic) => {
+                //   console.log(characteristic)
+                //   this._log(characteristic.value)
+                //   return
+                // })
+                device.readCharacteristicForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', 'B042EA6D-CC2E-4B53-A8BB-D14785AF9A2B')
+                .then(characteristic => console.log(characteristic.value))
+              })
+              .catch((error) => {
+                this._logError("CONNECT", error);
+              });
+          }
+      });
+  }
 
   _log = (text: string, ...args) => {
     const message = "[" + Date.now() % 10000 + "] " + text;
