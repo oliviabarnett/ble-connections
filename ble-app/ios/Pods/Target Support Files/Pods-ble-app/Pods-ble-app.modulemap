@@ -1,0 +1,6 @@
+module Pods_ble_app {
+  umbrella header "Pods-ble-app-umbrella.h"
+
+  export *
+  module * { export * }
+}
