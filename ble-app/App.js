@@ -74,11 +74,20 @@ export default class App extends React.Component<Props, State> {
                 return device.discoverAllServicesAndCharacteristics()
               })
               .then((device) => {
-                this._log(device.name)
-                device.writeCharacteristicWithResponseForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', '1448ef56-f2dc-4593-9f17-32cd59fb7774', 'dXNlcm5hbWU=')
-                device.writeCharacteristicWithResponseForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', '8204321F-D4bE-4556-9537-2EADB108D28E', 'cGFzc3dvcmQ=')
+                // Read networks from device, then send network choice back
                 device.readCharacteristicForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', 'B042EA6D-CC2E-4B53-A8BB-D14785AF9A2B')
-                .then(characteristic => this._log(characteristic.value))
+                .then(characteristic => {
+                  this._log("Read: ")
+                  this._log(characteristic.value)
+                  if (characteristic.value == "ZXphcHBhcmVs") { // ezapparel
+                    this._log("Writing to device")
+                    this._log(device.name)
+                    // Write to SSID characteristic
+                    device.writeCharacteristicWithResponseForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', '1448ef56-f2dc-4593-9f17-32cd59fb7774', 'ZXphcHBhcmVs')
+                    // Write to PASS characteristic
+                    device.writeCharacteristicWithResponseForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', '8204321F-D4bE-4556-9537-2EADB108D28E', 'MjEyMjc5OTcyMw==')
+                  }
+                })
               })
               .catch((error) => {
                 this._logError("CONNECT", error);
