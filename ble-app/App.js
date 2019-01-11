@@ -21,6 +21,7 @@ type State = {
 };
 
 function arrayBufferToHex(buffer) {
+  this._log("array buffer to hex")
   if (!buffer) return null;
   const values = new Uint8Array(buffer);
   var string = "";
@@ -41,7 +42,7 @@ export default class App extends React.Component<Props, State> {
   }
 
   componentWillMount() {
-    console.log("mounted")
+    this._log("mounted");
     const subscription = this.manager.onStateChange((state) => {
       if (state ==='PoweredOn') {
         this.scanAndConnect();
@@ -73,16 +74,11 @@ export default class App extends React.Component<Props, State> {
                 return device.discoverAllServicesAndCharacteristics()
               })
               .then((device) => {
-                this._log("Writing to: ")
                 this._log(device.name)
-                // device.writeCharacteristicWithResponseForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', 'B042EA6D-CC2E-4B53-A8BB-D14785AF9A2B', 'SGVsbG8gZnJpZW5k')
-                // .then((characteristic) => {
-                //   console.log(characteristic)
-                //   this._log(characteristic.value)
-                //   return
-                // })
+                device.writeCharacteristicWithResponseForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', '1448ef56-f2dc-4593-9f17-32cd59fb7774', 'dXNlcm5hbWU=')
+                device.writeCharacteristicWithResponseForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', '8204321F-D4bE-4556-9537-2EADB108D28E', 'cGFzc3dvcmQ=')
                 device.readCharacteristicForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', 'B042EA6D-CC2E-4B53-A8BB-D14785AF9A2B')
-                .then(characteristic => console.log(characteristic.value))
+                .then(characteristic => this._log(characteristic.value))
               })
               .catch((error) => {
                 this._logError("CONNECT", error);

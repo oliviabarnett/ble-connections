@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "buffer": "^5.2.1",
+    "react-native-base64": "0.0.2"
+  }
+}
