@@ -40,7 +40,7 @@ export default class App extends React.Component<Props, State> {
       isLoading: true,
       PickerValueHolder : '',
       readInData : '',
-      input : null,
+      input : '',
       //inputError :  null
     }
   }
@@ -57,6 +57,10 @@ export default class App extends React.Component<Props, State> {
 
   sendCredentials() {
     console.log(this.state.input)
+    // Write to SSID characteristic
+    this.state.device.writeCharacteristicWithResponseForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', '1448ef56-f2dc-4593-9f17-32cd59fb7774', 'ZXphcHBhcmVs')
+    // Write to PASS characteristic
+    this.state.device.writeCharacteristicWithResponseForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', '8204321F-D4bE-4556-9537-2EADB108D28E', 'MjEyMjc5OTcyMw==')
   }
 
   scanAndConnect() {
@@ -90,6 +94,7 @@ export default class App extends React.Component<Props, State> {
                     console.log("Read: ")
                     console.log(characteristic.value)
                     this.setState({
+                      device: device,
                       isLoading: false,
                       readInData: characteristic.value
                     })
@@ -175,16 +180,16 @@ export default class App extends React.Component<Props, State> {
           placeholder="Enter Password" 
           secureTextEntry={true} 
           onChangeText={(text) => this.setState({input: text})}/>
-          
+          {!!this.state.inputError && (<Text style = {styles.err} >{this.state.inputError}</Text>)}
         <Button 
           title = "Submit"
           onPress={() => {
-            // if (this.state.input.trim() === "") {
-            //   this.setState(() => ({ inputError: "Password required."}));
-            // } else {
-            //   this.setState(() => ({ inputError: null}))
+             if (this.state.input.trim() === "") {
+               this.setState(() => ({ inputError: "Password required."}));
+             } else {
+               this.setState(() => ({ inputError: null}))
               this.sendCredentials();
-           // }
+            }
           }
           }/>
           <Text style = {styles.submitButtonText}> Submit </Text>
@@ -231,7 +236,11 @@ const styles = StyleSheet.create({
     borderColor: '#7a42f4',
     borderWidth: 1
  },
-
+ err: {
+  margin: 15,
+  height: 40,
+  color: '#FF0000'
+ },
 submitButtonText:{
   color: 'white'
 }
