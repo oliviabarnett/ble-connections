@@ -1,11 +1,15 @@
 import React from 'react';
 import {
   AppRegistry,
+  ActivityIndicator,
   StyleSheet,
   Text,
+  TextInput,
   SafeAreaView,
   StatusBar,
   FlatList,
+  Picker,
+  Field,
   Platform,
   Button,
   View
@@ -13,36 +17,36 @@ import {
 import { AppLoading, Asset, Font, Icon } from 'expo';
 import AppNavigator from './navigation/AppNavigator';
 import { BleManager, Device, BleError, LogLevel } from "react-native-ble-plx";
+import { Provider } from 'react-redux';
+import { createStore, combineReducers } from 'redux';
+import { reducer as formReducer } from 'redux-form';
 
-type Props = {};
+// type Props = {};
 
-type State = {
-  text: Array<string>
-};
+// type State = {
+//   text: Array<string>
+// };
 
-function arrayBufferToHex(buffer) {
-  this._log("array buffer to hex")
-  if (!buffer) return null;
-  const values = new Uint8Array(buffer);
-  var string = "";
-  for (var i = 0; i < values.length; i += 1) {
-    const num = values[i].toString(16);
-    string += num.length == 1 ? "0" + num : num;
-  }
-  return string;
-}
+const rootReducer = combineReducers({
+  form: formReducer,
+});
+const store = createStore(rootReducer);
 
 export default class App extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props);
     this.manager = new BleManager();
     this.state = {
-      text: []
-    };
+      isLoading: true,
+      PickerValueHolder : '',
+      readInData : '',
+      input : null,
+      //inputError :  null
+    }
   }
 
   componentWillMount() {
-    this._log("mounted");
+    console.log("mounted");
     const subscription = this.manager.onStateChange((state) => {
       if (state ==='PoweredOn') {
         this.scanAndConnect();
@@ -51,8 +55,12 @@ export default class App extends React.Component<Props, State> {
     }, true);
   }
 
+  sendCredentials() {
+    console.log(this.state.input)
+  }
+
   scanAndConnect() {
-    this._log("Started scanning...");
+    console.log("Started scanning...");
     this.manager.startDeviceScan(null, null, (error, device) => {
         if (error) {
             // Handle error (scanning will be stopped automatically)
@@ -62,33 +70,44 @@ export default class App extends React.Component<Props, State> {
 
         // Check if it is a device you are looking for
         if (device.name === 'CC_BLE'){
-            this._log("Device: " + device.name, device);
-            this._log("UUID: " + device.serviceUUIDs, device);
-            this._log("id: " + device.id, device);
+            console.log("Device: " + device.name);
+            console.log("UUID: " + device.serviceUUIDs);
+            console.log("id: " + device.id);
             // Stop scanning as it's not necessary if you are scanning for one device.
             this.manager.stopDeviceScan();
+            console.log("stopped scanning");
             // Proceed with connection.
             device.connect()
               .then((device) => {
-                this._log("Discovering services and characteristics");
-                return device.discoverAllServicesAndCharacteristics()
+                console.log("Discovering services and characteristics");
+                return device.discoverAllServicesAndCharacteristics();
               })
               .then((device) => {
                 // Read networks from device, then send network choice back
                 device.readCharacteristicForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', 'B042EA6D-CC2E-4B53-A8BB-D14785AF9A2B')
                 .then(characteristic => {
-                  this._log("Read: ")
-                  this._log(characteristic.value)
                   if (characteristic.value == "ZXphcHBhcmVs") { // ezapparel
-                    this._log("Writing to device")
-                    this._log(device.name)
-                    // Write to SSID characteristic
-                    device.writeCharacteristicWithResponseForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', '1448ef56-f2dc-4593-9f17-32cd59fb7774', 'ZXphcHBhcmVs')
-                    // Write to PASS characteristic
-                    device.writeCharacteristicWithResponseForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', '8204321F-D4bE-4556-9537-2EADB108D28E', 'MjEyMjc5OTcyMw==')
-                  }
-                })
-              })
+                    console.log("Read: ")
+                    console.log(characteristic.value)
+                    this.setState({
+                      isLoading: false,
+                      readInData: characteristic.value
+                    })
+                  }})})
+              //   }.then()
+                
+              //       console.log("Writing to device")
+              //       console.log(device.name)
+
+              //       console.log(this.state);
+
+              //       // Write to SSID characteristic
+              //       device.writeCharacteristicWithResponseForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', '1448ef56-f2dc-4593-9f17-32cd59fb7774', 'ZXphcHBhcmVs')
+              //       // Write to PASS characteristic
+              //       device.writeCharacteristicWithResponseForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', '8204321F-D4bE-4556-9537-2EADB108D28E', 'MjEyMjc5OTcyMw==')
+              //     }
+              //   })
+              // })
               .catch((error) => {
                 this._logError("CONNECT", error);
               });
@@ -104,7 +123,7 @@ export default class App extends React.Component<Props, State> {
   };
 
   _logError = (tag: string, error: BleError) => {
-    this._log(
+    console.log(
       tag +
         "ERROR(" +
         error.errorCode +
@@ -134,26 +153,42 @@ export default class App extends React.Component<Props, State> {
     isLoadingComplete: false,
   };
 
+
   render() {
+    if (this.state.isLoading) {
+      return (
+        <View style={{flex: 1, paddingTop: 100}}>
+          <ActivityIndicator />
+        </View>
+      );
+    }
     return (
-      <SafeAreaView
-        style={styles.container}
-      >
-        <Button
+      <View style={styles.container}>
+        <Picker 
+                selectedValue={this.state.PickerValueHolder}
+    
+                onValueChange={(itemValue, itemIndex) => this.setState({PickerValueHolder: itemValue})} >
+    
+                <Picker.Item label={this.state.readInData} value={this.state.readInData} />
+        </Picker>
+        <TextInput style = {styles.input}
+          placeholder="Enter Password" 
+          secureTextEntry={true} 
+          onChangeText={(text) => this.setState({input: text})}/>
+          
+        <Button 
+          title = "Submit"
           onPress={() => {
-            this.setState({
-              text: []
-            });
-          }}
-          title={"Clear"}
-        />
-        <FlatList
-          style={styles.container}
-          data={this.state.text}
-          renderItem={({ item }) => <Text> {item} </Text>}
-          keyExtractor={(item, index) => index.toString()}
-        />
-      </SafeAreaView>
+            // if (this.state.input.trim() === "") {
+            //   this.setState(() => ({ inputError: "Password required."}));
+            // } else {
+            //   this.setState(() => ({ inputError: null}))
+              this.sendCredentials();
+           // }
+          }
+          }/>
+          <Text style = {styles.submitButtonText}> Submit </Text>
+      </View>
     );
   }
 
@@ -186,7 +221,18 @@ export default class App extends React.Component<Props, State> {
 
 const styles = StyleSheet.create({
   container: {
+    paddingTop:100,
     flex: 1,
     backgroundColor: '#fff',
   },
+  input: {
+    margin: 15,
+    height: 40,
+    borderColor: '#7a42f4',
+    borderWidth: 1
+ },
+
+submitButtonText:{
+  color: 'white'
+}
 });

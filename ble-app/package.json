@@ -14,10 +14,14 @@
     "@expo/samples": "2.1.1",
     "expo": "^32.0.0",
     "expokit": "32.0.3",
+    "prop-types": "^15.6.2",
     "react": "16.5.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
     "react-native-ble-plx": "^1.0.1",
-    "react-navigation": "^3.0.9"
+    "react-navigation": "^3.0.9",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-form": "^8.1.0"
   },
   "devDependencies": {
     "babel-preset-expo": "^5.0.0",
