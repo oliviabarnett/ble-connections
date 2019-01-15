@@ -1,31 +1,17 @@
 import React from 'react';
 import {
-  AppRegistry,
   ActivityIndicator,
   StyleSheet,
   Text,
   TextInput,
-  SafeAreaView,
-  StatusBar,
-  FlatList,
   Picker,
-  Field,
-  Platform,
   Button,
   View
 } from "react-native";
-import { AppLoading, Asset, Font, Icon } from 'expo';
-import AppNavigator from './navigation/AppNavigator';
 import { BleManager, Device, BleError, LogLevel } from "react-native-ble-plx";
-import { Provider } from 'react-redux';
 import { createStore, combineReducers } from 'redux';
 import { reducer as formReducer } from 'redux-form';
-
-// type Props = {};
-
-// type State = {
-//   text: Array<string>
-// };
+import base64 from 'react-native-base64'
 
 const rootReducer = combineReducers({
   form: formReducer,
@@ -41,7 +27,6 @@ export default class App extends React.Component<Props, State> {
       PickerValueHolder : '',
       readInData : '',
       input : '',
-      //inputError :  null
     }
   }
 
@@ -56,11 +41,15 @@ export default class App extends React.Component<Props, State> {
   }
 
   sendCredentials() {
-    console.log(this.state.input)
+    ssid = base64.encode(this.state.PickerValueHolder);
+    pass = base64.encode(this.state.input)
+    console.log("Writing: ")
+    console.log(ssid)
+    console.log(pass)
     // Write to SSID characteristic
-    this.state.device.writeCharacteristicWithResponseForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', '1448ef56-f2dc-4593-9f17-32cd59fb7774', 'ZXphcHBhcmVs')
+    this.state.device.writeCharacteristicWithResponseForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', '1448ef56-f2dc-4593-9f17-32cd59fb7774', ssid)
     // Write to PASS characteristic
-    this.state.device.writeCharacteristicWithResponseForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', '8204321F-D4bE-4556-9537-2EADB108D28E', 'MjEyMjc5OTcyMw==')
+    this.state.device.writeCharacteristicWithResponseForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', '8204321F-D4bE-4556-9537-2EADB108D28E', pass)
   }
 
   scanAndConnect() {
@@ -90,7 +79,7 @@ export default class App extends React.Component<Props, State> {
                 // Read networks from device, then send network choice back
                 device.readCharacteristicForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', 'B042EA6D-CC2E-4B53-A8BB-D14785AF9A2B')
                 .then(characteristic => {
-                  if (characteristic.value == "ZXphcHBhcmVs") { // ezapparel
+                  if (base64.decode(characteristic.value) == "ezapparel") { // ezapparel
                     console.log("Read: ")
                     console.log(characteristic.value)
                     this.setState({
@@ -99,20 +88,6 @@ export default class App extends React.Component<Props, State> {
                       readInData: characteristic.value
                     })
                   }})})
-              //   }.then()
-                
-              //       console.log("Writing to device")
-              //       console.log(device.name)
-
-              //       console.log(this.state);
-
-              //       // Write to SSID characteristic
-              //       device.writeCharacteristicWithResponseForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', '1448ef56-f2dc-4593-9f17-32cd59fb7774', 'ZXphcHBhcmVs')
-              //       // Write to PASS characteristic
-              //       device.writeCharacteristicWithResponseForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', '8204321F-D4bE-4556-9537-2EADB108D28E', 'MjEyMjc5OTcyMw==')
-              //     }
-              //   })
-              // })
               .catch((error) => {
                 this._logError("CONNECT", error);
               });
@@ -146,19 +121,6 @@ export default class App extends React.Component<Props, State> {
     );
   };
 
-  delay = () => {
-    return new Promise((resolve, reject) => {
-      setTimeout(() => {
-        resolve();
-      }, 5000);
-    });
-  };
-
-  state = {
-    isLoadingComplete: false,
-  };
-
-
   render() {
     if (this.state.isLoading) {
       return (
@@ -185,10 +147,10 @@ export default class App extends React.Component<Props, State> {
           title = "Submit"
           onPress={() => {
              if (this.state.input.trim() === "") {
-               this.setState(() => ({ inputError: "Password required."}));
+                this.setState(() => ({ inputError: "Password required."}));
              } else {
-               this.setState(() => ({ inputError: null}))
-              this.sendCredentials();
+                this.setState(() => ({ inputError: null}))
+                this.sendCredentials();
             }
           }
           }/>
@@ -197,31 +159,6 @@ export default class App extends React.Component<Props, State> {
     );
   }
 
-  _loadResourcesAsync = async () => {
-    return Promise.all([
-      Asset.loadAsync([
-        require('./assets/images/robot-dev.png'),
-        require('./assets/images/robot-prod.png'),
-      ]),
-      Font.loadAsync({
-        // This is the font that we are using for our tab bar
-        ...Icon.Ionicons.font,
-        // We include SpaceMono because we use it in HomeScreen.js. Feel free
-        // to remove this if you are not using it in your app
-        'space-mono': require('./assets/fonts/SpaceMono-Regular.ttf'),
-      }),
-    ]);
-  };
-
-  _handleLoadingError = error => {
-    // In this case, you might want to report the error to your error
-    // reporting service, for example Sentry
-    console.warn(error);
-  };
-
-  _handleFinishLoading = () => {
-    this.setState({ isLoadingComplete: true });
-  };
 }
 
 const styles = StyleSheet.create({
@@ -236,12 +173,12 @@ const styles = StyleSheet.create({
     borderColor: '#7a42f4',
     borderWidth: 1
  },
- err: {
-  margin: 15,
-  height: 40,
-  color: '#FF0000'
+  err: {
+    margin: 15,
+    height: 40,
+    color: '#FF0000'
  },
-submitButtonText:{
-  color: 'white'
+  submitButtonText:{
+    color: 'white'
 }
 });
