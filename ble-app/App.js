@@ -62,7 +62,8 @@ export default class App extends React.Component<Props, State> {
         }
 
         // Check if it is a device you are looking for
-        if (device.name === 'CC_BLE'){
+        console.log(device.name)
+        if (device.name === 'FormulaPro_abc'){
             console.log("Device: " + device.name);
             console.log("UUID: " + device.serviceUUIDs);
             console.log("id: " + device.id);
@@ -79,6 +80,7 @@ export default class App extends React.Component<Props, State> {
                 // Read networks from device, then send network choice back
                 device.readCharacteristicForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', 'B042EA6D-CC2E-4B53-A8BB-D14785AF9A2B')
                 .then(characteristic => {
+                  console.log("reading")
                   if (base64.decode(characteristic.value) == "ezapparel") { // ezapparel
                     console.log("Read: ")
                     console.log(characteristic.value)
