@@ -24,8 +24,8 @@ export default class App extends React.Component<Props, State> {
     this.manager = new BleManager();
     this.state = {
       isLoading: true,
-      PickerValueHolder : '',
-      readInData : '',
+      chosenNetwork : '',
+      networks : '',
       input : '',
     }
   }
@@ -41,15 +41,15 @@ export default class App extends React.Component<Props, State> {
   }
 
   sendCredentials() {
-    ssid = base64.encode(this.state.PickerValueHolder);
-    pass = base64.encode(this.state.input)
+    ssid = base64.encode(this.state.chosenNetwork);
+    pass = base64.encode(this.state.input);
     console.log("Writing: ")
-    console.log(ssid)
-    console.log(pass)
+    console.log(base64.decode(ssid))
+    console.log(base64.decode(pass))
     // Write to SSID characteristic
-    this.state.device.writeCharacteristicWithResponseForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', '1448ef56-f2dc-4593-9f17-32cd59fb7774', ssid)
+    this.state.device.writeCharacteristicWithResponseForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', '1448ef56-f2dc-4593-9f17-32cd59fb7774', ssid);
     // Write to PASS characteristic
-    this.state.device.writeCharacteristicWithResponseForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', '8204321F-D4bE-4556-9537-2EADB108D28E', pass)
+    this.state.device.writeCharacteristicWithResponseForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', '8204321F-D4bE-4556-9537-2EADB108D28E', pass);
   }
 
   scanAndConnect() {
@@ -63,7 +63,7 @@ export default class App extends React.Component<Props, State> {
 
         // Check if it is a device you are looking for
         console.log(device.name)
-        if (device.name === 'FormulaPro_abc'){
+        if (device.name === 'FORMULAPRO' ){
             console.log("Device: " + device.name);
             console.log("UUID: " + device.serviceUUIDs);
             console.log("id: " + device.id);
@@ -75,21 +75,37 @@ export default class App extends React.Component<Props, State> {
               .then((device) => {
                 console.log("Discovering services and characteristics");
                 return device.discoverAllServicesAndCharacteristics();
+
               })
               .then((device) => {
+                console.log("Reading characteristic for service")
                 // Read networks from device, then send network choice back
+                // this.manager.monitorCharacteristicForDevice(
+                //   device.id,
+                //   'AFC672E8-6CA4-4252-BE86-B6F20E3F7467', 
+                //   'B042EA6D-CC2E-4B53-A8BB-D14785AF9A2B',
+                //   (error, c) => {
+                //     console.log('in monitor')
+                //         if (error) {
+                //           console.log(error);
+                //         }
+                //         else {
+                //           console.log('received value - ')
+                //           console.log(base64.decode(c.value))
+                //         }
+                //     }
+                // )
                 device.readCharacteristicForService('AFC672E8-6CA4-4252-BE86-B6F20E3F7467', 'B042EA6D-CC2E-4B53-A8BB-D14785AF9A2B')
                 .then(characteristic => {
-                  console.log("reading")
-                  if (base64.decode(characteristic.value) == "ezapparel") { // ezapparel
-                    console.log("Read: ")
-                    console.log(characteristic.value)
-                    this.setState({
-                      device: device,
-                      isLoading: false,
-                      readInData: characteristic.value
-                    })
-                  }})})
+                  collectedNetworks = JSON.parse(base64.decode(characteristic.value))["networks"]
+                  uniqueNetworks = Array.from(new Set(collectedNetworks))
+                  console.log(uniqueNetworks)
+                  this.setState({
+                    device: device,
+                    isLoading: false,
+                    networks: uniqueNetworks
+                  })
+              })})
               .catch((error) => {
                 this._logError("CONNECT", error);
               });
@@ -134,11 +150,16 @@ export default class App extends React.Component<Props, State> {
     return (
       <View style={styles.container}>
         <Picker 
-                selectedValue={this.state.PickerValueHolder}
-    
-                onValueChange={(itemValue, itemIndex) => this.setState({PickerValueHolder: itemValue})} >
-    
-                <Picker.Item label={this.state.readInData} value={this.state.readInData} />
+                selectedValue={this.state.chosenNetwork}
+                onValueChange={(itemValue, itemIndex) => this.setState({chosenNetwork: itemValue})} >
+                {this.state.networks.map((result, index) =>
+                  <Picker.Item 
+                    label={result} 
+                    value={result}
+                    key={index} 
+                  />
+                  )
+                } 
         </Picker>
         <TextInput style = {styles.input}
           placeholder="Enter Password" 
