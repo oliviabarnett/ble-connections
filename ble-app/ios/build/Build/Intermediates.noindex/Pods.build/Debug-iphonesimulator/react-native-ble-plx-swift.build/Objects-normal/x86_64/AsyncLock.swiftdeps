@@ -1,0 +1,201 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AsyncLock"
+provides-nominal:
+- "26react_native_ble_plx_swift9AsyncLockC"
+provides-member:
+- ["26react_native_ble_plx_swift9AsyncLockC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private ">"
+- "AssignmentPrecedence"
+- "AsyncLock"
+- "Bool"
+- "BooleanLiteralType"
+- "Disposable"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "InvocableType"
+- "Lock"
+- "Queue"
+- "SpinLock"
+- "SynchronizedDisposeType"
+- "Void"
+depends-member:
+- ["26react_native_ble_plx_swift9AsyncLockC", "Action"]
+- ["26react_native_ble_plx_swift9AsyncLockC", "Bool"]
+- ["26react_native_ble_plx_swift9AsyncLockC", "I"]
+- ["26react_native_ble_plx_swift9AsyncLockC", "Queue"]
+- ["26react_native_ble_plx_swift9AsyncLockC", "SpinLock"]
+- ["26react_native_ble_plx_swift9AsyncLockC", "Void"]
+- !private ["26react_native_ble_plx_swift9AsyncLockC", "_hasFaulted"]
+- !private ["26react_native_ble_plx_swift9AsyncLockC", "_isExecuting"]
+- ["26react_native_ble_plx_swift9AsyncLockC", "_lock"]
+- !private ["26react_native_ble_plx_swift9AsyncLockC", "_queue"]
+- ["26react_native_ble_plx_swift9AsyncLockC", "_synchronized_dispose"]
+- ["26react_native_ble_plx_swift9AsyncLockC", "deinit"]
+- !private ["26react_native_ble_plx_swift9AsyncLockC", "dequeue"]
+- ["26react_native_ble_plx_swift9AsyncLockC", "dispose"]
+- !private ["26react_native_ble_plx_swift9AsyncLockC", "enqueue"]
+- ["26react_native_ble_plx_swift9AsyncLockC", "init"]
+- ["26react_native_ble_plx_swift9AsyncLockC", "invoke"]
+- ["26react_native_ble_plx_swift9AsyncLockC", "lock"]
+- !private ["26react_native_ble_plx_swift9AsyncLockC", "synchronizedDispose"]
+- ["26react_native_ble_plx_swift9AsyncLockC", "unlock"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lock"]
+- !private ["s7CVarArgP", "unlock"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lock"]
+- !private ["s28CustomDebugStringConvertibleP", "unlock"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lock"]
+- !private ["s23CustomStringConvertibleP", "unlock"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["26react_native_ble_plx_swift10DisposableP", "Queue"]
+- ["26react_native_ble_plx_swift10DisposableP", "SpinLock"]
+- ["26react_native_ble_plx_swift10DisposableP", ""]
+- !private ["26react_native_ble_plx_swift10DisposableP", "_hasFaulted"]
+- !private ["26react_native_ble_plx_swift10DisposableP", "_isExecuting"]
+- !private ["26react_native_ble_plx_swift10DisposableP", "_lock"]
+- !private ["26react_native_ble_plx_swift10DisposableP", "_queue"]
+- ["26react_native_ble_plx_swift10DisposableP", "_synchronized_dispose"]
+- !private ["26react_native_ble_plx_swift10DisposableP", "dequeue"]
+- ["26react_native_ble_plx_swift10DisposableP", "dispose"]
+- !private ["26react_native_ble_plx_swift10DisposableP", "enqueue"]
+- ["26react_native_ble_plx_swift10DisposableP", "lock"]
+- !private ["26react_native_ble_plx_swift10DisposableP", "synchronizedDispose"]
+- ["26react_native_ble_plx_swift10DisposableP", "unlock"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "init"]
+- !private ["SQ", "lock"]
+- !private ["SQ", "unlock"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "init"]
+- !private ["SH", "lock"]
+- !private ["SH", "unlock"]
+- !private ["26react_native_ble_plx_swift13InvocableTypeP", "invoke"]
+- ["26react_native_ble_plx_swift4LockP", "Queue"]
+- ["26react_native_ble_plx_swift4LockP", "SpinLock"]
+- ["26react_native_ble_plx_swift4LockP", ""]
+- !private ["26react_native_ble_plx_swift4LockP", "_hasFaulted"]
+- !private ["26react_native_ble_plx_swift4LockP", "_isExecuting"]
+- !private ["26react_native_ble_plx_swift4LockP", "_lock"]
+- !private ["26react_native_ble_plx_swift4LockP", "_queue"]
+- ["26react_native_ble_plx_swift4LockP", "_synchronized_dispose"]
+- !private ["26react_native_ble_plx_swift4LockP", "dequeue"]
+- ["26react_native_ble_plx_swift4LockP", "dispose"]
+- !private ["26react_native_ble_plx_swift4LockP", "enqueue"]
+- ["26react_native_ble_plx_swift4LockP", "init"]
+- ["26react_native_ble_plx_swift4LockP", "lock"]
+- !private ["26react_native_ble_plx_swift4LockP", "synchronizedDispose"]
+- ["26react_native_ble_plx_swift4LockP", "unlock"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["So9NSLockingP", "init"]
+- !private ["So9NSLockingP", "lock"]
+- !private ["So9NSLockingP", "unlock"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "lock"]
+- !private ["So8NSObjectC", "unlock"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "lock"]
+- !private ["So8NSObjectP", "unlock"]
+- !private ["So15NSRecursiveLockC", "deinit"]
+- ["So15NSRecursiveLockC", "init"]
+- !private ["So15NSRecursiveLockC", "lock"]
+- !private ["So15NSRecursiveLockC", "unlock"]
+- !private ["26react_native_ble_plx_swift5QueueV", "count"]
+- !private ["26react_native_ble_plx_swift5QueueV", "dequeue"]
+- !private ["26react_native_ble_plx_swift5QueueV", "enqueue"]
+- ["26react_native_ble_plx_swift5QueueV", "init"]
+- ["26react_native_ble_plx_swift18ReactiveCompatibleP", "init"]
+- !private ["26react_native_ble_plx_swift18ReactiveCompatibleP", "lock"]
+- !private ["26react_native_ble_plx_swift18ReactiveCompatibleP", "unlock"]
+- !private ["ST", "count"]
+- !private ["ST", "dequeue"]
+- !private ["ST", "enqueue"]
+- ["ST", "init"]
+- ["26react_native_ble_plx_swift23SynchronizedDisposeTypeP", "Queue"]
+- ["26react_native_ble_plx_swift23SynchronizedDisposeTypeP", "SpinLock"]
+- ["26react_native_ble_plx_swift23SynchronizedDisposeTypeP", ""]
+- !private ["26react_native_ble_plx_swift23SynchronizedDisposeTypeP", "_hasFaulted"]
+- !private ["26react_native_ble_plx_swift23SynchronizedDisposeTypeP", "_isExecuting"]
+- !private ["26react_native_ble_plx_swift23SynchronizedDisposeTypeP", "_lock"]
+- !private ["26react_native_ble_plx_swift23SynchronizedDisposeTypeP", "_queue"]
+- ["26react_native_ble_plx_swift23SynchronizedDisposeTypeP", "_synchronized_dispose"]
+- !private ["26react_native_ble_plx_swift23SynchronizedDisposeTypeP", "dequeue"]
+- ["26react_native_ble_plx_swift23SynchronizedDisposeTypeP", "dispose"]
+- !private ["26react_native_ble_plx_swift23SynchronizedDisposeTypeP", "enqueue"]
+- ["26react_native_ble_plx_swift23SynchronizedDisposeTypeP", "lock"]
+- !private ["26react_native_ble_plx_swift23SynchronizedDisposeTypeP", "synchronizedDispose"]
+- ["26react_native_ble_plx_swift23SynchronizedDisposeTypeP", "unlock"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unlock"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- "26react_native_ble_plx_swift9AsyncLockC"
+- !private "Sb"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- "26react_native_ble_plx_swift10DisposableP"
+- !private "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "SH"
+- !private "26react_native_ble_plx_swift13InvocableTypeP"
+- "26react_native_ble_plx_swift4LockP"
+- !private "s25LosslessStringConvertibleP"
+- "So9NSLockingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So15NSRecursiveLockC"
+- "26react_native_ble_plx_swift5QueueV"
+- "26react_native_ble_plx_swift18ReactiveCompatibleP"
+- "ST"
+- "26react_native_ble_plx_swift23SynchronizedDisposeTypeP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Public/react_native_ble_plx_swift/react-native-ble-plx-swift-umbrella.h"
+- "/Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Public/react_native_ble_plx_swift/react-native-ble-plx-swift.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "98ab8280db031ee7ecec6e3e06cba91d"

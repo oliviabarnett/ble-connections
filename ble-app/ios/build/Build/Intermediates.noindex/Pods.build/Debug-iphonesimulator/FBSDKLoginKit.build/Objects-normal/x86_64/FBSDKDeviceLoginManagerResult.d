@@ -1,0 +1,35 @@
+dependencies: \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKDeviceLoginManagerResult.m \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Target\ Support\ Files/FBSDKLoginKit/FBSDKLoginKit-prefix.pch \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/Internal/FBSDKDeviceLoginManagerResult+Internal.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKCoreKit.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKAccessToken.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKCopying.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKGraphRequestConnection.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppEvents.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKApplicationDelegate.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKButton.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKConstants.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKGraphRequest.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKGraphRequestDataAttachment.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKMacros.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKSettings.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKTestUsersManager.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKUtility.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLink.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkTarget.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkNavigation.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkResolving.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkResolver.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/Bolts/BFAppLinkResolving.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkReturnToRefererController.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkReturnToRefererView.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkUtility.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKGraphErrorRecoveryProcessor.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKMeasurementEvent.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKMutableCopying.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKProfile.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKProfilePictureView.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKURL.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKWebViewAppLinkResolver.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKDeviceLoginManagerResult.h

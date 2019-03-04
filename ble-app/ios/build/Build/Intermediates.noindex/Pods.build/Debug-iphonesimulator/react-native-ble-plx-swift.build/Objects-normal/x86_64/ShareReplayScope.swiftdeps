@@ -1,0 +1,357 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SubjectLifetimeScope"
+provides-nominal:
+- "26react_native_ble_plx_swift20SubjectLifetimeScopeO"
+provides-member:
+- ["26react_native_ble_plx_swift20SubjectLifetimeScopeO", ""]
+- ["26react_native_ble_plx_swift14ObservableTypeP", ""]
+- ["26react_native_ble_plx_swift14ObservableTypeP", "share"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "==="
+- "AnyObserver"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Disposable"
+- "Event"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "Observable"
+- "ObservableType"
+- "ObserverType"
+- !private "PublishSubject"
+- "RecursiveLock"
+- !private "ReplaySubject"
+- "ShareReplay1WhileConnected"
+- "ShareReplay1WhileConnectedConnection"
+- "ShareWhileConnected"
+- "ShareWhileConnectedConnection"
+- "SingleAssignmentDisposable"
+- !private "StringLiteralType"
+- "SubjectLifetimeScope"
+- !private "SubscriptionDisposable"
+- "SynchronizedUnsubscribeType"
+- !private "dispatch"
+- !private "~="
+depends-member:
+- ["26react_native_ble_plx_swift11AnyObserverV", "s"]
+- ["26react_native_ble_plx_swift3BagV", "KeyType"]
+- !private ["26react_native_ble_plx_swift3BagV", "count"]
+- ["26react_native_ble_plx_swift3BagV", "init"]
+- !private ["26react_native_ble_plx_swift3BagV", "insert"]
+- !private ["26react_native_ble_plx_swift3BagV", "removeKey"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lock"]
+- !private ["s7CVarArgP", "unlock"]
+- !private ["26react_native_ble_plx_swift10CancelableP", "dispose"]
+- ["26react_native_ble_plx_swift10CancelableP", "init"]
+- !private ["26react_native_ble_plx_swift10CancelableP", "setDisposable"]
+- !private ["26react_native_ble_plx_swift21ConnectableObservableC", "deinit"]
+- !private ["26react_native_ble_plx_swift21ConnectableObservableC", "refCount"]
+- !private ["26react_native_ble_plx_swift25ConnectableObservableTypeP", "refCount"]
+- ["s28CustomDebugStringConvertibleP", "KeyType"]
+- ["s28CustomDebugStringConvertibleP", "completed"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "error"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insert"]
+- !private ["s28CustomDebugStringConvertibleP", "lock"]
+- ["s28CustomDebugStringConvertibleP", "next"]
+- !private ["s28CustomDebugStringConvertibleP", "removeKey"]
+- !private ["s28CustomDebugStringConvertibleP", "unlock"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lock"]
+- !private ["s23CustomStringConvertibleP", "unlock"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["26react_native_ble_plx_swift10DisposableP", "create"]
+- !private ["26react_native_ble_plx_swift10DisposableP", "dispose"]
+- ["26react_native_ble_plx_swift10DisposableP", "init"]
+- !private ["26react_native_ble_plx_swift10DisposableP", "setDisposable"]
+- !private ["26react_native_ble_plx_swift11DisposeBaseC", "dispose"]
+- ["26react_native_ble_plx_swift11DisposeBaseC", "init"]
+- !private ["26react_native_ble_plx_swift11DisposeBaseC", "setDisposable"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "forever"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "lock"]
+- !private ["SQ", "unlock"]
+- ["SQ", "whileConnected"]
+- ["26react_native_ble_plx_swift5EventO", "completed"]
+- ["26react_native_ble_plx_swift5EventO", "error"]
+- ["26react_native_ble_plx_swift5EventO", "next"]
+- ["26react_native_ble_plx_swift16EventConvertibleP", "completed"]
+- ["26react_native_ble_plx_swift16EventConvertibleP", "error"]
+- ["26react_native_ble_plx_swift16EventConvertibleP", "next"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "forever"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "lock"]
+- !private ["SH", "unlock"]
+- ["SH", "whileConnected"]
+- !private ["s6HasherV", "combine"]
+- ["26react_native_ble_plx_swift4LockP", "init"]
+- !private ["26react_native_ble_plx_swift4LockP", "lock"]
+- !private ["26react_native_ble_plx_swift4LockP", "unlock"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["So9NSLockingP", "init"]
+- !private ["So9NSLockingP", "lock"]
+- !private ["So9NSLockingP", "unlock"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "lock"]
+- !private ["So8NSObjectC", "unlock"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "lock"]
+- !private ["So8NSObjectP", "unlock"]
+- !private ["So15NSRecursiveLockC", "deinit"]
+- ["So15NSRecursiveLockC", "init"]
+- !private ["So15NSRecursiveLockC", "lock"]
+- !private ["So15NSRecursiveLockC", "unlock"]
+- ["26react_native_ble_plx_swift10ObservableC", "Connection"]
+- ["26react_native_ble_plx_swift10ObservableC", "Disposable"]
+- ["26react_native_ble_plx_swift10ObservableC", "E"]
+- ["26react_native_ble_plx_swift10ObservableC", "Element"]
+- ["26react_native_ble_plx_swift10ObservableC", "Observable"]
+- ["26react_native_ble_plx_swift10ObservableC", "ObserverType"]
+- ["26react_native_ble_plx_swift10ObservableC", "RecursiveLock"]
+- ["26react_native_ble_plx_swift10ObservableC", "ShareReplay1WhileConnectedConnection"]
+- ["26react_native_ble_plx_swift10ObservableC", "ShareWhileConnectedConnection"]
+- !private ["26react_native_ble_plx_swift10ObservableC", ""]
+- ["26react_native_ble_plx_swift10ObservableC", "_connection"]
+- ["26react_native_ble_plx_swift10ObservableC", "_lock"]
+- ["26react_native_ble_plx_swift10ObservableC", "_source"]
+- ["26react_native_ble_plx_swift10ObservableC", "_synchronized_subscribe"]
+- !private ["26react_native_ble_plx_swift10ObservableC", "create"]
+- !private ["26react_native_ble_plx_swift10ObservableC", "deinit"]
+- ["26react_native_ble_plx_swift10ObservableC", "init"]
+- !private ["26react_native_ble_plx_swift10ObservableC", "refCount"]
+- ["26react_native_ble_plx_swift10ObservableC", "subscribe"]
+- ["26react_native_ble_plx_swift25ObservableConvertibleTypeP", "E"]
+- ["26react_native_ble_plx_swift25ObservableConvertibleTypeP", "Int"]
+- ["26react_native_ble_plx_swift25ObservableConvertibleTypeP", "Observable"]
+- !private ["26react_native_ble_plx_swift25ObservableConvertibleTypeP", "PublishSubject"]
+- ["26react_native_ble_plx_swift25ObservableConvertibleTypeP", "RecursiveLock"]
+- !private ["26react_native_ble_plx_swift25ObservableConvertibleTypeP", "ReplaySubject"]
+- !private ["26react_native_ble_plx_swift25ObservableConvertibleTypeP", "ShareReplay1WhileConnected"]
+- !private ["26react_native_ble_plx_swift25ObservableConvertibleTypeP", "ShareReplay1WhileConnectedConnection"]
+- !private ["26react_native_ble_plx_swift25ObservableConvertibleTypeP", "ShareWhileConnected"]
+- !private ["26react_native_ble_plx_swift25ObservableConvertibleTypeP", "ShareWhileConnectedConnection"]
+- ["26react_native_ble_plx_swift25ObservableConvertibleTypeP", "SubjectLifetimeScope"]
+- !private ["26react_native_ble_plx_swift25ObservableConvertibleTypeP", ""]
+- !private ["26react_native_ble_plx_swift25ObservableConvertibleTypeP", "_connection"]
+- !private ["26react_native_ble_plx_swift25ObservableConvertibleTypeP", "_lock"]
+- !private ["26react_native_ble_plx_swift25ObservableConvertibleTypeP", "_source"]
+- !private ["26react_native_ble_plx_swift25ObservableConvertibleTypeP", "_synchronized_subscribe"]
+- !private ["26react_native_ble_plx_swift25ObservableConvertibleTypeP", "asObservable"]
+- !private ["26react_native_ble_plx_swift25ObservableConvertibleTypeP", "create"]
+- !private ["26react_native_ble_plx_swift25ObservableConvertibleTypeP", "init"]
+- !private ["26react_native_ble_plx_swift25ObservableConvertibleTypeP", "multicast"]
+- !private ["26react_native_ble_plx_swift25ObservableConvertibleTypeP", "refCount"]
+- !private ["26react_native_ble_plx_swift25ObservableConvertibleTypeP", "subscribe"]
+- ["26react_native_ble_plx_swift14ObservableTypeP", "E"]
+- ["26react_native_ble_plx_swift14ObservableTypeP", "Int"]
+- ["26react_native_ble_plx_swift14ObservableTypeP", "Observable"]
+- !private ["26react_native_ble_plx_swift14ObservableTypeP", "PublishSubject"]
+- ["26react_native_ble_plx_swift14ObservableTypeP", "RecursiveLock"]
+- !private ["26react_native_ble_plx_swift14ObservableTypeP", "ReplaySubject"]
+- !private ["26react_native_ble_plx_swift14ObservableTypeP", "ShareReplay1WhileConnected"]
+- !private ["26react_native_ble_plx_swift14ObservableTypeP", "ShareReplay1WhileConnectedConnection"]
+- !private ["26react_native_ble_plx_swift14ObservableTypeP", "ShareWhileConnected"]
+- !private ["26react_native_ble_plx_swift14ObservableTypeP", "ShareWhileConnectedConnection"]
+- ["26react_native_ble_plx_swift14ObservableTypeP", "SubjectLifetimeScope"]
+- !private ["26react_native_ble_plx_swift14ObservableTypeP", ""]
+- !private ["26react_native_ble_plx_swift14ObservableTypeP", "_connection"]
+- !private ["26react_native_ble_plx_swift14ObservableTypeP", "_lock"]
+- !private ["26react_native_ble_plx_swift14ObservableTypeP", "_source"]
+- !private ["26react_native_ble_plx_swift14ObservableTypeP", "_synchronized_subscribe"]
+- !private ["26react_native_ble_plx_swift14ObservableTypeP", "asObservable"]
+- !private ["26react_native_ble_plx_swift14ObservableTypeP", "create"]
+- !private ["26react_native_ble_plx_swift14ObservableTypeP", "init"]
+- !private ["26react_native_ble_plx_swift14ObservableTypeP", "multicast"]
+- !private ["26react_native_ble_plx_swift14ObservableTypeP", "refCount"]
+- ["26react_native_ble_plx_swift14ObservableTypeP", "share"]
+- !private ["26react_native_ble_plx_swift14ObservableTypeP", "subscribe"]
+- ["26react_native_ble_plx_swift12ObserverTypeP", "DisposeKey"]
+- ["26react_native_ble_plx_swift12ObserverTypeP", "E"]
+- ["26react_native_ble_plx_swift12ObserverTypeP", "Observers"]
+- ["26react_native_ble_plx_swift12ObserverTypeP", "SingleAssignmentDisposable"]
+- !private ["26react_native_ble_plx_swift12ObserverTypeP", "SubscriptionDisposable"]
+- !private ["26react_native_ble_plx_swift12ObserverTypeP", ""]
+- !private ["26react_native_ble_plx_swift12ObserverTypeP", "_disposed"]
+- !private ["26react_native_ble_plx_swift12ObserverTypeP", "_element"]
+- !private ["26react_native_ble_plx_swift12ObserverTypeP", "_lock"]
+- !private ["26react_native_ble_plx_swift12ObserverTypeP", "_observers"]
+- !private ["26react_native_ble_plx_swift12ObserverTypeP", "_parent"]
+- !private ["26react_native_ble_plx_swift12ObserverTypeP", "_subscription"]
+- !private ["26react_native_ble_plx_swift12ObserverTypeP", "_synchronized_dispose"]
+- !private ["26react_native_ble_plx_swift12ObserverTypeP", "_synchronized_on"]
+- !private ["26react_native_ble_plx_swift12ObserverTypeP", "_synchronized_subscribe"]
+- !private ["26react_native_ble_plx_swift12ObserverTypeP", "_synchronized_unsubscribe"]
+- !private ["26react_native_ble_plx_swift12ObserverTypeP", "connect"]
+- !private ["26react_native_ble_plx_swift12ObserverTypeP", "create"]
+- !private ["26react_native_ble_plx_swift12ObserverTypeP", "dispatch"]
+- !private ["26react_native_ble_plx_swift12ObserverTypeP", "init"]
+- ["26react_native_ble_plx_swift12ObserverTypeP", "on"]
+- ["26react_native_ble_plx_swift12ObserverTypeP", "s"]
+- ["26react_native_ble_plx_swift12ObserverTypeP", "synchronizedUnsubscribe"]
+- !private ["26react_native_ble_plx_swift14PublishSubjectC", "deinit"]
+- !private ["26react_native_ble_plx_swift14PublishSubjectC", "init"]
+- ["26react_native_ble_plx_swift18ReactiveCompatibleP", "init"]
+- !private ["26react_native_ble_plx_swift18ReactiveCompatibleP", "lock"]
+- !private ["26react_native_ble_plx_swift18ReactiveCompatibleP", "unlock"]
+- !private ["26react_native_ble_plx_swift13ReplaySubjectC", "create"]
+- !private ["26react_native_ble_plx_swift13ReplaySubjectC", "deinit"]
+- !private ["26react_native_ble_plx_swift26SingleAssignmentDisposableC", "deinit"]
+- !private ["26react_native_ble_plx_swift26SingleAssignmentDisposableC", "dispose"]
+- ["26react_native_ble_plx_swift26SingleAssignmentDisposableC", "init"]
+- !private ["26react_native_ble_plx_swift26SingleAssignmentDisposableC", "setDisposable"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["26react_native_ble_plx_swift20SubjectLifetimeScopeO", "__derived_enum_equals"]
+- ["26react_native_ble_plx_swift20SubjectLifetimeScopeO", "deinit"]
+- ["26react_native_ble_plx_swift20SubjectLifetimeScopeO", "forever"]
+- ["26react_native_ble_plx_swift20SubjectLifetimeScopeO", "hash"]
+- ["26react_native_ble_plx_swift20SubjectLifetimeScopeO", "hashValue"]
+- ["26react_native_ble_plx_swift20SubjectLifetimeScopeO", "whileConnected"]
+- !private ["26react_native_ble_plx_swift11SubjectTypeP", "create"]
+- !private ["26react_native_ble_plx_swift11SubjectTypeP", "init"]
+- !private ["26react_native_ble_plx_swift22SubscriptionDisposableV", "deinit"]
+- !private ["26react_native_ble_plx_swift22SubscriptionDisposableV", "init"]
+- ["26react_native_ble_plx_swift27SynchronizedUnsubscribeTypeP", "DisposeKey"]
+- ["26react_native_ble_plx_swift27SynchronizedUnsubscribeTypeP", "E"]
+- ["26react_native_ble_plx_swift27SynchronizedUnsubscribeTypeP", "Observers"]
+- ["26react_native_ble_plx_swift27SynchronizedUnsubscribeTypeP", "SingleAssignmentDisposable"]
+- !private ["26react_native_ble_plx_swift27SynchronizedUnsubscribeTypeP", "SubscriptionDisposable"]
+- !private ["26react_native_ble_plx_swift27SynchronizedUnsubscribeTypeP", ""]
+- !private ["26react_native_ble_plx_swift27SynchronizedUnsubscribeTypeP", "_disposed"]
+- !private ["26react_native_ble_plx_swift27SynchronizedUnsubscribeTypeP", "_element"]
+- !private ["26react_native_ble_plx_swift27SynchronizedUnsubscribeTypeP", "_lock"]
+- !private ["26react_native_ble_plx_swift27SynchronizedUnsubscribeTypeP", "_observers"]
+- !private ["26react_native_ble_plx_swift27SynchronizedUnsubscribeTypeP", "_parent"]
+- !private ["26react_native_ble_plx_swift27SynchronizedUnsubscribeTypeP", "_subscription"]
+- !private ["26react_native_ble_plx_swift27SynchronizedUnsubscribeTypeP", "_synchronized_dispose"]
+- !private ["26react_native_ble_plx_swift27SynchronizedUnsubscribeTypeP", "_synchronized_on"]
+- !private ["26react_native_ble_plx_swift27SynchronizedUnsubscribeTypeP", "_synchronized_subscribe"]
+- !private ["26react_native_ble_plx_swift27SynchronizedUnsubscribeTypeP", "_synchronized_unsubscribe"]
+- !private ["26react_native_ble_plx_swift27SynchronizedUnsubscribeTypeP", "connect"]
+- !private ["26react_native_ble_plx_swift27SynchronizedUnsubscribeTypeP", "dispatch"]
+- !private ["26react_native_ble_plx_swift27SynchronizedUnsubscribeTypeP", "init"]
+- ["26react_native_ble_plx_swift27SynchronizedUnsubscribeTypeP", "on"]
+- ["26react_native_ble_plx_swift27SynchronizedUnsubscribeTypeP", "synchronizedUnsubscribe"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unlock"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- "26react_native_ble_plx_swift11AnyObserverV"
+- "26react_native_ble_plx_swift3BagV"
+- !private "Sb"
+- "s7CVarArgP"
+- "26react_native_ble_plx_swift10CancelableP"
+- !private "26react_native_ble_plx_swift21ConnectableObservableC"
+- !private "26react_native_ble_plx_swift25ConnectableObservableTypeP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- "26react_native_ble_plx_swift10DisposableP"
+- "26react_native_ble_plx_swift11DisposeBaseC"
+- !private "SE"
+- "SQ"
+- "26react_native_ble_plx_swift5EventO"
+- "26react_native_ble_plx_swift16EventConvertibleP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s6HasherV"
+- "26react_native_ble_plx_swift4LockP"
+- !private "s25LosslessStringConvertibleP"
+- "So9NSLockingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So15NSRecursiveLockC"
+- "26react_native_ble_plx_swift10ObservableC"
+- "26react_native_ble_plx_swift25ObservableConvertibleTypeP"
+- "26react_native_ble_plx_swift14ObservableTypeP"
+- "26react_native_ble_plx_swift12ObserverTypeP"
+- !private "26react_native_ble_plx_swift14PublishSubjectC"
+- "26react_native_ble_plx_swift18ReactiveCompatibleP"
+- !private "26react_native_ble_plx_swift13ReplaySubjectC"
+- "26react_native_ble_plx_swift26SingleAssignmentDisposableC"
+- !private "s12StaticStringV"
+- "26react_native_ble_plx_swift20SubjectLifetimeScopeO"
+- !private "26react_native_ble_plx_swift11SubjectTypeP"
+- !private "26react_native_ble_plx_swift22SubscriptionDisposableV"
+- "26react_native_ble_plx_swift27SynchronizedUnsubscribeTypeP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Public/react_native_ble_plx_swift/react-native-ble-plx-swift-umbrella.h"
+- "/Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Public/react_native_ble_plx_swift/react-native-ble-plx-swift.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "824d5e8edb95f2043ff21964f3763a88"

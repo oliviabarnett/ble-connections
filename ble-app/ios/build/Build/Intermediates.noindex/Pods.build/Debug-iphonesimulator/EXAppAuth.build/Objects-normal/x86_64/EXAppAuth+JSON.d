@@ -1,0 +1,44 @@
+dependencies: \
+  /Users/olivia/eziot/ble-connections/ble-app/node_modules/expo-app-auth/ios/EXAppAuth/EXAppAuth+JSON.m \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Target\ Support\ Files/EXAppAuth/EXAppAuth-prefix.pch \
+  /Users/olivia/eziot/ble-connections/ble-app/node_modules/expo-app-auth/ios/EXAppAuth/EXAppAuth+JSON.h \
+  /Users/olivia/eziot/ble-connections/ble-app/node_modules/expo-app-auth/ios/EXAppAuth/EXAppAuth.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/EXCore/EXExportedModule.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/EXCore/EXDefines.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/EXCore/EXInternalModule.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/EXCore/EXModuleRegistryConsumer.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/EXCore/EXModuleRegistry.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/EXCore/EXViewManager.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/EXCore/EXModuleRegistryDelegate.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/AppAuth.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDAuthState.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDAuthStateChangeDelegate.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDAuthStateErrorDelegate.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDAuthorizationFlowSession.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDAuthorizationRequest.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDExternalUserAgentRequest.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDResponseTypes.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDScopes.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDAuthorizationResponse.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDAuthorizationService.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDError.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDErrorUtilities.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDExternalUserAgent.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDExternalUserAgentSession.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDGrantTypes.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDIDToken.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDRegistrationRequest.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDRegistrationResponse.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDScopeUtilities.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDServiceConfiguration.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDServiceDiscovery.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDTokenRequest.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDTokenResponse.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDTokenUtilities.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDURLSessionProvider.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDAuthState+IOS.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDAuthorizationService+IOS.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDExternalUserAgentIOS.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/AppAuth/OIDExternalUserAgentIOSCustomBrowser.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/EXCore/EXUtilities.h \
+  /Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Private/EXCore/EXUtilitiesInterface.h

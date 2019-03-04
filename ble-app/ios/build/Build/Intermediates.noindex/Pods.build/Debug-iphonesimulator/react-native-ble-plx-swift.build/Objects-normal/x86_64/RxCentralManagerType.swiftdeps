@@ -1,0 +1,78 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RxCentralManagerType"
+provides-nominal:
+- "26react_native_ble_plx_swift20RxCentralManagerTypeP"
+provides-member:
+- ["26react_native_ble_plx_swift20RxCentralManagerTypeP", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "BluetoothState"
+- "CBCentralManager"
+- "CBUUID"
+- "Error"
+- "NSNumber"
+- "Observable"
+- "RxCentralManagerType"
+- "RxPeripheralType"
+- "String"
+- "UInt"
+- "UUID"
+depends-member:
+- ["26react_native_ble_plx_swift20RxCentralManagerTypeP", "BluetoothState"]
+- ["26react_native_ble_plx_swift20RxCentralManagerTypeP", "CBCentralManager"]
+- ["26react_native_ble_plx_swift20RxCentralManagerTypeP", "CBUUID"]
+- ["26react_native_ble_plx_swift20RxCentralManagerTypeP", "Error"]
+- ["26react_native_ble_plx_swift20RxCentralManagerTypeP", "NSNumber"]
+- ["26react_native_ble_plx_swift20RxCentralManagerTypeP", "Observable"]
+- ["26react_native_ble_plx_swift20RxCentralManagerTypeP", "RxPeripheralType"]
+- ["26react_native_ble_plx_swift20RxCentralManagerTypeP", "String"]
+- ["26react_native_ble_plx_swift20RxCentralManagerTypeP", "UInt"]
+- ["26react_native_ble_plx_swift20RxCentralManagerTypeP", "UUID"]
+- ["26react_native_ble_plx_swift20RxCentralManagerTypeP", "cancelPeripheralConnection"]
+- ["26react_native_ble_plx_swift20RxCentralManagerTypeP", "centralManager"]
+- ["26react_native_ble_plx_swift20RxCentralManagerTypeP", "connect"]
+- ["26react_native_ble_plx_swift20RxCentralManagerTypeP", "objectId"]
+- ["26react_native_ble_plx_swift20RxCentralManagerTypeP", "retrieveConnectedPeripherals"]
+- ["26react_native_ble_plx_swift20RxCentralManagerTypeP", "retrievePeripherals"]
+- ["26react_native_ble_plx_swift20RxCentralManagerTypeP", "rx_didConnectPeripheral"]
+- ["26react_native_ble_plx_swift20RxCentralManagerTypeP", "rx_didDisconnectPeripheral"]
+- ["26react_native_ble_plx_swift20RxCentralManagerTypeP", "rx_didDiscoverPeripheral"]
+- ["26react_native_ble_plx_swift20RxCentralManagerTypeP", "rx_didFailToConnectPeripheral"]
+- ["26react_native_ble_plx_swift20RxCentralManagerTypeP", "rx_didUpdateState"]
+- ["26react_native_ble_plx_swift20RxCentralManagerTypeP", "rx_willRestoreState"]
+- ["26react_native_ble_plx_swift20RxCentralManagerTypeP", "scanForPeripherals"]
+- ["26react_native_ble_plx_swift20RxCentralManagerTypeP", "state"]
+- ["26react_native_ble_plx_swift20RxCentralManagerTypeP", "stopScan"]
+depends-nominal:
+- "26react_native_ble_plx_swift20RxCentralManagerTypeP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Public/react_native_ble_plx_swift/react-native-ble-plx-swift-umbrella.h"
+- "/Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Public/react_native_ble_plx_swift/react-native-ble-plx-swift.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8c185d8010532456d8cea92eb4f8a745"

@@ -1,0 +1,98 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InfiniteSequence"
+provides-nominal:
+- "26react_native_ble_plx_swift16InfiniteSequenceV"
+provides-member:
+- ["26react_native_ble_plx_swift16InfiniteSequenceV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyIterator"
+- "AssignmentPrecedence"
+- "InfiniteSequence"
+- "Sequence"
+depends-member:
+- !private ["s11AnyIteratorV", "init"]
+- ["26react_native_ble_plx_swift16InfiniteSequenceV", "AnyIterator"]
+- ["26react_native_ble_plx_swift16InfiniteSequenceV", "E"]
+- ["26react_native_ble_plx_swift16InfiniteSequenceV", "Element"]
+- ["26react_native_ble_plx_swift16InfiniteSequenceV", "Iterator"]
+- ["26react_native_ble_plx_swift16InfiniteSequenceV", "SubSequence"]
+- ["26react_native_ble_plx_swift16InfiniteSequenceV", "_Default_SubSequence"]
+- ["26react_native_ble_plx_swift16InfiniteSequenceV", "_copyContents"]
+- ["26react_native_ble_plx_swift16InfiniteSequenceV", "_copyToContiguousArray"]
+- ["26react_native_ble_plx_swift16InfiniteSequenceV", "_customContainsEquatableElement"]
+- ["26react_native_ble_plx_swift16InfiniteSequenceV", "_preprocessingPass"]
+- !private ["26react_native_ble_plx_swift16InfiniteSequenceV", "_repeatedValue"]
+- ["26react_native_ble_plx_swift16InfiniteSequenceV", "deinit"]
+- ["26react_native_ble_plx_swift16InfiniteSequenceV", "drop"]
+- ["26react_native_ble_plx_swift16InfiniteSequenceV", "dropFirst"]
+- ["26react_native_ble_plx_swift16InfiniteSequenceV", "dropLast"]
+- ["26react_native_ble_plx_swift16InfiniteSequenceV", "filter"]
+- ["26react_native_ble_plx_swift16InfiniteSequenceV", "forEach"]
+- ["26react_native_ble_plx_swift16InfiniteSequenceV", "init"]
+- ["26react_native_ble_plx_swift16InfiniteSequenceV", "makeIterator"]
+- ["26react_native_ble_plx_swift16InfiniteSequenceV", "map"]
+- ["26react_native_ble_plx_swift16InfiniteSequenceV", "prefix"]
+- ["26react_native_ble_plx_swift16InfiniteSequenceV", "split"]
+- ["26react_native_ble_plx_swift16InfiniteSequenceV", "suffix"]
+- ["26react_native_ble_plx_swift16InfiniteSequenceV", "underestimatedCount"]
+- !private ["St", "init"]
+- !private ["ST", "AnyIterator"]
+- ["ST", "Element"]
+- ["ST", "Iterator"]
+- ["ST", "SubSequence"]
+- ["ST", ""]
+- ["ST", "_Default_SubSequence"]
+- ["ST", "_copyContents"]
+- ["ST", "_copyToContiguousArray"]
+- ["ST", "_customContainsEquatableElement"]
+- ["ST", "_preprocessingPass"]
+- !private ["ST", "_repeatedValue"]
+- ["ST", "drop"]
+- ["ST", "dropFirst"]
+- ["ST", "dropLast"]
+- ["ST", "filter"]
+- ["ST", "forEach"]
+- !private ["ST", "init"]
+- ["ST", "makeIterator"]
+- ["ST", "map"]
+- ["ST", "prefix"]
+- ["ST", "split"]
+- ["ST", "suffix"]
+- ["ST", "underestimatedCount"]
+depends-nominal:
+- !private "s11AnyIteratorV"
+- "26react_native_ble_plx_swift16InfiniteSequenceV"
+- !private "St"
+- "ST"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Public/react_native_ble_plx_swift/react-native-ble-plx-swift-umbrella.h"
+- "/Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Public/react_native_ble_plx_swift/react-native-ble-plx-swift.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "25a6f901620d4783743e11d57209d28d"

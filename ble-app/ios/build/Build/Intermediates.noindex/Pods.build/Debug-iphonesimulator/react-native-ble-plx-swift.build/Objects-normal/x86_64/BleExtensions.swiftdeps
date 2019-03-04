@@ -1,0 +1,532 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["26react_native_ble_plx_swift13RestoredStateV", ""]
+- ["26react_native_ble_plx_swift17ScannedPeripheralC", ""]
+- ["26react_native_ble_plx_swift10PeripheralC", ""]
+- ["26react_native_ble_plx_swift7ServiceC", ""]
+- ["26react_native_ble_plx_swift14CharacteristicC", ""]
+- ["26react_native_ble_plx_swift17RxBluetoothKitLogC0I5LevelO", ""]
+- ["26react_native_ble_plx_swift14BluetoothStateO", ""]
+- ["26react_native_ble_plx_swift13RestoredStateV", "asJSObject"]
+- ["26react_native_ble_plx_swift17ScannedPeripheralC", "mtu"]
+- ["26react_native_ble_plx_swift17ScannedPeripheralC", "asJSObject"]
+- ["26react_native_ble_plx_swift10PeripheralC", "mtu"]
+- ["26react_native_ble_plx_swift10PeripheralC", "asJSObject"]
+- ["26react_native_ble_plx_swift7ServiceC", "jsIdentifier"]
+- ["26react_native_ble_plx_swift7ServiceC", "asJSObject"]
+- ["26react_native_ble_plx_swift14CharacteristicC", "jsIdentifier"]
+- ["26react_native_ble_plx_swift14CharacteristicC", "asJSObject"]
+- ["26react_native_ble_plx_swift17RxBluetoothKitLogC0I5LevelO", "asJSObject"]
+- ["26react_native_ble_plx_swift17RxBluetoothKitLogC0I5LevelO", "init"]
+- ["26react_native_ble_plx_swift14BluetoothStateO", "asJSObject"]
+- ["26react_native_ble_plx_swift14CharacteristicC", "valueBase64"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&"
+- !private "+"
+- !private "-"
+- !private "<<"
+- "AnyHashable"
+- "AssignmentPrecedence"
+- "BluetoothState"
+- !private "CBUUID"
+- "CastingPrecedence"
+- "Characteristic"
+- "Double"
+- "Int"
+- !private "NSNull"
+- "Peripheral"
+- "RestoredState"
+- "RxBluetoothKitLog"
+- "ScannedPeripheral"
+- "Service"
+- "String"
+- !private "StringLiteralType"
+- !private "UInt64"
+- !private "~="
+depends-member:
+- !private ["26react_native_ble_plx_swift17AdvertisementDataV", "isConnectable"]
+- !private ["26react_native_ble_plx_swift17AdvertisementDataV", "localName"]
+- !private ["26react_native_ble_plx_swift17AdvertisementDataV", "manufacturerData"]
+- !private ["26react_native_ble_plx_swift17AdvertisementDataV", "overflowServiceUUIDs"]
+- !private ["26react_native_ble_plx_swift17AdvertisementDataV", "serviceData"]
+- !private ["26react_native_ble_plx_swift17AdvertisementDataV", "serviceUUIDs"]
+- !private ["26react_native_ble_plx_swift17AdvertisementDataV", "solicitedServiceUUIDs"]
+- !private ["26react_native_ble_plx_swift17AdvertisementDataV", "txPowerLevel"]
+- !private ["Sa", "map"]
+- !private ["s13ArrayProtocolP", "map"]
+- !private ["SK", "base64"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "map"]
+- !private ["SB", "init"]
+- !private ["Sz", "init"]
+- ["26react_native_ble_plx_swift14BluetoothStateO", "asJSObject"]
+- ["26react_native_ble_plx_swift14BluetoothStateO", "poweredOff"]
+- ["26react_native_ble_plx_swift14BluetoothStateO", "poweredOn"]
+- ["26react_native_ble_plx_swift14BluetoothStateO", "resetting"]
+- ["26react_native_ble_plx_swift14BluetoothStateO", "unauthorized"]
+- ["26react_native_ble_plx_swift14BluetoothStateO", "unknown"]
+- ["26react_native_ble_plx_swift14BluetoothStateO", "unsupported"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So8CAActionP", "init"]
+- !private ["So26CBCharacteristicPropertiesV", "contains"]
+- !private ["So26CBCharacteristicPropertiesV", "indicate"]
+- !private ["So26CBCharacteristicPropertiesV", "notify"]
+- !private ["So26CBCharacteristicPropertiesV", "read"]
+- !private ["So26CBCharacteristicPropertiesV", "write"]
+- !private ["So26CBCharacteristicPropertiesV", "writeWithoutResponse"]
+- !private ["So25CBCharacteristicWriteTypeV", "withoutResponse"]
+- !private ["So6CBUUIDC", "fullUUIDString"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "fullUUIDString"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "subscript"]
+- ["26react_native_ble_plx_swift14CharacteristicC", "AnyHashable"]
+- ["26react_native_ble_plx_swift14CharacteristicC", "Double"]
+- ["26react_native_ble_plx_swift14CharacteristicC", "String"]
+- !private ["26react_native_ble_plx_swift14CharacteristicC", "UInt64"]
+- ["26react_native_ble_plx_swift14CharacteristicC", "asJSObject"]
+- !private ["26react_native_ble_plx_swift14CharacteristicC", "deinit"]
+- !private ["26react_native_ble_plx_swift14CharacteristicC", "isNotifying"]
+- ["26react_native_ble_plx_swift14CharacteristicC", "jsIdentifier"]
+- !private ["26react_native_ble_plx_swift14CharacteristicC", "objectId"]
+- !private ["26react_native_ble_plx_swift14CharacteristicC", "properties"]
+- !private ["26react_native_ble_plx_swift14CharacteristicC", "service"]
+- !private ["26react_native_ble_plx_swift14CharacteristicC", "uuid"]
+- !private ["26react_native_ble_plx_swift14CharacteristicC", "value"]
+- ["26react_native_ble_plx_swift14CharacteristicC", "valueBase64"]
+- !private ["Sl", "base64"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "map"]
+- !private ["Sl", "subscript"]
+- ["SL", "debug"]
+- ["SL", "error"]
+- ["SL", "info"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- ["SL", "none"]
+- ["SL", "verbose"]
+- ["SL", "warning"]
+- !private ["s28CustomDebugStringConvertibleP", "base64"]
+- !private ["s28CustomDebugStringConvertibleP", "fullUUIDString"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "uuidString"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "base64"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "uuidString"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "base64"]
+- !private ["s23CustomStringConvertibleP", "fullUUIDString"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "uuidString"]
+- !private ["10Foundation4DataV", "base64"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "base64"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "subscript"]
+- !private ["Se", "uuidString"]
+- !private ["SD", "init"]
+- !private ["SD", "subscript"]
+- !private ["Sd", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "base64"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "subscript"]
+- !private ["SE", "uuidString"]
+- !private ["SQ", "Double"]
+- !private ["SQ", "NSNull"]
+- !private ["SQ", "UInt64"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "asJSObject"]
+- !private ["SQ", "base64"]
+- !private ["SQ", "contains"]
+- ["SQ", "debug"]
+- ["SQ", "error"]
+- !private ["SQ", "fullUUIDString"]
+- !private ["SQ", "identifier"]
+- !private ["SQ", "indicate"]
+- ["SQ", "info"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isNotifying"]
+- !private ["SQ", "isPrimary"]
+- !private ["SQ", "jsIdentifier"]
+- !private ["SQ", "map"]
+- !private ["SQ", "maximumWriteValueLength"]
+- !private ["SQ", "mtu"]
+- !private ["SQ", "name"]
+- ["SQ", "none"]
+- !private ["SQ", "notify"]
+- !private ["SQ", "objectId"]
+- !private ["SQ", "peripheral"]
+- ["SQ", "poweredOff"]
+- ["SQ", "poweredOn"]
+- !private ["SQ", "properties"]
+- !private ["SQ", "read"]
+- ["SQ", "resetting"]
+- !private ["SQ", "service"]
+- !private ["SQ", "subscript"]
+- ["SQ", "unauthorized"]
+- ["SQ", "unknown"]
+- ["SQ", "unsupported"]
+- !private ["SQ", "uuid"]
+- !private ["SQ", "uuidString"]
+- !private ["SQ", "value"]
+- !private ["SQ", "valueBase64"]
+- ["SQ", "verbose"]
+- ["SQ", "warning"]
+- !private ["SQ", "withoutResponse"]
+- !private ["SQ", "write"]
+- !private ["SQ", "writeWithoutResponse"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "indicate"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "notify"]
+- !private ["s25ExpressibleByArrayLiteralP", "read"]
+- !private ["s25ExpressibleByArrayLiteralP", "write"]
+- !private ["s25ExpressibleByArrayLiteralP", "writeWithoutResponse"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SF", "init"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "base64"]
+- ["SH", "debug"]
+- ["SH", "error"]
+- !private ["SH", "fullUUIDString"]
+- ["SH", "info"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "map"]
+- ["SH", "none"]
+- ["SH", "poweredOff"]
+- ["SH", "poweredOn"]
+- ["SH", "resetting"]
+- !private ["SH", "subscript"]
+- ["SH", "unauthorized"]
+- ["SH", "unknown"]
+- ["SH", "unsupported"]
+- !private ["SH", "uuidString"]
+- ["SH", "verbose"]
+- ["SH", "warning"]
+- !private ["SH", "withoutResponse"]
+- ["26react_native_ble_plx_swift17RxBluetoothKitLogC0I5LevelO", "String"]
+- ["26react_native_ble_plx_swift17RxBluetoothKitLogC0I5LevelO", "asJSObject"]
+- ["26react_native_ble_plx_swift17RxBluetoothKitLogC0I5LevelO", "debug"]
+- ["26react_native_ble_plx_swift17RxBluetoothKitLogC0I5LevelO", "error"]
+- ["26react_native_ble_plx_swift17RxBluetoothKitLogC0I5LevelO", "info"]
+- ["26react_native_ble_plx_swift17RxBluetoothKitLogC0I5LevelO", "init"]
+- ["26react_native_ble_plx_swift17RxBluetoothKitLogC0I5LevelO", "none"]
+- ["26react_native_ble_plx_swift17RxBluetoothKitLogC0I5LevelO", "verbose"]
+- ["26react_native_ble_plx_swift17RxBluetoothKitLogC0I5LevelO", "warning"]
+- !private ["26react_native_ble_plx_swift8LoggableP", "base64"]
+- !private ["26react_native_ble_plx_swift8LoggableP", "fullUUIDString"]
+- ["26react_native_ble_plx_swift8LoggableP", "poweredOff"]
+- ["26react_native_ble_plx_swift8LoggableP", "poweredOn"]
+- ["26react_native_ble_plx_swift8LoggableP", "resetting"]
+- ["26react_native_ble_plx_swift8LoggableP", "unauthorized"]
+- ["26react_native_ble_plx_swift8LoggableP", "unknown"]
+- ["26react_native_ble_plx_swift8LoggableP", "unsupported"]
+- !private ["26react_native_ble_plx_swift8LoggableP", "uuidString"]
+- !private ["26react_native_ble_plx_swift8LoggableP", "withoutResponse"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "base64"]
+- !private ["SM", "map"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "fullUUIDString"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So6NSNullC", "init"]
+- !private ["So8NSObjectC", "fullUUIDString"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectP", "fullUUIDString"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["Sj", "init"]
+- !private ["s9OptionSetP", "contains"]
+- !private ["s9OptionSetP", "indicate"]
+- !private ["s9OptionSetP", "notify"]
+- !private ["s9OptionSetP", "read"]
+- !private ["s9OptionSetP", "write"]
+- !private ["s9OptionSetP", "writeWithoutResponse"]
+- ["26react_native_ble_plx_swift10PeripheralC", "AnyHashable"]
+- ["26react_native_ble_plx_swift10PeripheralC", "Int"]
+- !private ["26react_native_ble_plx_swift10PeripheralC", "NSNull"]
+- ["26react_native_ble_plx_swift10PeripheralC", "asJSObject"]
+- !private ["26react_native_ble_plx_swift10PeripheralC", "identifier"]
+- !private ["26react_native_ble_plx_swift10PeripheralC", "maximumWriteValueLength"]
+- ["26react_native_ble_plx_swift10PeripheralC", "mtu"]
+- !private ["26react_native_ble_plx_swift10PeripheralC", "name"]
+- !private ["Sk", "base64"]
+- !private ["Sk", "map"]
+- !private ["Sm", "base64"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "map"]
+- !private ["SY", "contains"]
+- ["SY", "debug"]
+- ["SY", "error"]
+- !private ["SY", "indicate"]
+- ["SY", "info"]
+- ["SY", "none"]
+- !private ["SY", "notify"]
+- ["SY", "poweredOff"]
+- ["SY", "poweredOn"]
+- !private ["SY", "read"]
+- ["SY", "resetting"]
+- ["SY", "unauthorized"]
+- ["SY", "unknown"]
+- ["SY", "unsupported"]
+- ["SY", "verbose"]
+- ["SY", "warning"]
+- !private ["SY", "withoutResponse"]
+- !private ["SY", "write"]
+- !private ["SY", "writeWithoutResponse"]
+- !private ["26react_native_ble_plx_swift18ReactiveCompatibleP", "fullUUIDString"]
+- !private ["26react_native_ble_plx_swift18ReactiveCompatibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "base64"]
+- !private ["10Foundation20ReferenceConvertibleP", "uuidString"]
+- ["26react_native_ble_plx_swift13RestoredStateV", "AnyHashable"]
+- ["26react_native_ble_plx_swift13RestoredStateV", "asJSObject"]
+- !private ["26react_native_ble_plx_swift13RestoredStateV", "peripherals"]
+- ["26react_native_ble_plx_swift17RxBluetoothKitLogC", "LogLevel"]
+- ["26react_native_ble_plx_swift17ScannedPeripheralC", "AnyHashable"]
+- !private ["26react_native_ble_plx_swift17ScannedPeripheralC", "CBUUID"]
+- ["26react_native_ble_plx_swift17ScannedPeripheralC", "Int"]
+- !private ["26react_native_ble_plx_swift17ScannedPeripheralC", "String"]
+- !private ["26react_native_ble_plx_swift17ScannedPeripheralC", "advertisementData"]
+- ["26react_native_ble_plx_swift17ScannedPeripheralC", "asJSObject"]
+- ["26react_native_ble_plx_swift17ScannedPeripheralC", "mtu"]
+- !private ["26react_native_ble_plx_swift17ScannedPeripheralC", "peripheral"]
+- !private ["26react_native_ble_plx_swift17ScannedPeripheralC", "rssi"]
+- !private ["ST", "base64"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "map"]
+- !private ["ST", "subscript"]
+- ["26react_native_ble_plx_swift7ServiceC", "AnyHashable"]
+- ["26react_native_ble_plx_swift7ServiceC", "Double"]
+- !private ["26react_native_ble_plx_swift7ServiceC", "UInt64"]
+- ["26react_native_ble_plx_swift7ServiceC", "asJSObject"]
+- !private ["26react_native_ble_plx_swift7ServiceC", "deinit"]
+- !private ["26react_native_ble_plx_swift7ServiceC", "isPrimary"]
+- ["26react_native_ble_plx_swift7ServiceC", "jsIdentifier"]
+- !private ["26react_native_ble_plx_swift7ServiceC", "objectId"]
+- !private ["26react_native_ble_plx_swift7ServiceC", "peripheral"]
+- !private ["26react_native_ble_plx_swift7ServiceC", "uuid"]
+- !private ["s10SetAlgebraP", "contains"]
+- !private ["s10SetAlgebraP", "indicate"]
+- !private ["s10SetAlgebraP", "notify"]
+- !private ["s10SetAlgebraP", "read"]
+- !private ["s10SetAlgebraP", "write"]
+- !private ["s10SetAlgebraP", "writeWithoutResponse"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s6UInt64V", "init"]
+- !private ["10Foundation4UUIDV", "uuidString"]
+- !private ["26react_native_ble_plx_swift16UUIDIdentifiableP", "Double"]
+- !private ["26react_native_ble_plx_swift16UUIDIdentifiableP", "UInt64"]
+- !private ["26react_native_ble_plx_swift16UUIDIdentifiableP", "isNotifying"]
+- !private ["26react_native_ble_plx_swift16UUIDIdentifiableP", "isPrimary"]
+- !private ["26react_native_ble_plx_swift16UUIDIdentifiableP", "jsIdentifier"]
+- !private ["26react_native_ble_plx_swift16UUIDIdentifiableP", "objectId"]
+- !private ["26react_native_ble_plx_swift16UUIDIdentifiableP", "peripheral"]
+- !private ["26react_native_ble_plx_swift16UUIDIdentifiableP", "properties"]
+- !private ["26react_native_ble_plx_swift16UUIDIdentifiableP", "service"]
+- !private ["26react_native_ble_plx_swift16UUIDIdentifiableP", "uuid"]
+- !private ["26react_native_ble_plx_swift16UUIDIdentifiableP", "value"]
+- !private ["26react_native_ble_plx_swift16UUIDIdentifiableP", "valueBase64"]
+- !private ["SU", "init"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fullUUIDString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "base64"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "uuidString"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "26react_native_ble_plx_swift17AdvertisementDataV"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "SB"
+- !private "Sz"
+- "26react_native_ble_plx_swift14BluetoothStateO"
+- !private "Sb"
+- !private "So8CAActionP"
+- !private "So26CBCharacteristicPropertiesV"
+- !private "So25CBCharacteristicWriteTypeV"
+- !private "So6CBUUIDC"
+- !private "s7CVarArgP"
+- "26react_native_ble_plx_swift14CharacteristicC"
+- !private "Sl"
+- "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "Se"
+- !private "SD"
+- !private "Sd"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SF"
+- "SH"
+- "26react_native_ble_plx_swift17RxBluetoothKitLogC0I5LevelO"
+- "26react_native_ble_plx_swift8LoggableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So6NSNullC"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sj"
+- !private "s9OptionSetP"
+- "26react_native_ble_plx_swift10PeripheralC"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "26react_native_ble_plx_swift18ReactiveCompatibleP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "26react_native_ble_plx_swift13RestoredStateV"
+- "26react_native_ble_plx_swift17RxBluetoothKitLogC"
+- "26react_native_ble_plx_swift17ScannedPeripheralC"
+- !private "ST"
+- "26react_native_ble_plx_swift7ServiceC"
+- !private "s10SetAlgebraP"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s6UInt64V"
+- !private "10Foundation4UUIDV"
+- !private "26react_native_ble_plx_swift16UUIDIdentifiableP"
+- !private "SU"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Public/react_native_ble_plx_swift/react-native-ble-plx-swift-umbrella.h"
+- "/Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Public/react_native_ble_plx_swift/react-native-ble-plx-swift.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "27313b50218351d8e17fa5a454f980ae"

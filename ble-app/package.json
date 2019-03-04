@@ -12,6 +12,9 @@
   },
   "dependencies": {
     "@expo/samples": "2.1.1",
+    "appcenter": "1.12.2",
+    "appcenter-analytics": "1.12.2",
+    "appcenter-crashes": "1.12.2",
     "expo": "^32.0.0",
     "expokit": "32.0.3",
     "prop-types": "^15.6.2",

@@ -1,0 +1,695 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BleErrorCode"
+- "BleError"
+provides-nominal:
+- "26react_native_ble_plx_swift12BleErrorCodeO"
+- "26react_native_ble_plx_swift8BleErrorV"
+provides-member:
+- ["26react_native_ble_plx_swift12BleErrorCodeO", ""]
+- ["26react_native_ble_plx_swift8BleErrorV", ""]
+- ["26react_native_ble_plx_swift7RxErrorO", ""]
+- ["s5ErrorP", ""]
+- ["Sq", ""]
+- ["26react_native_ble_plx_swift14BluetoothErrorO", ""]
+- ["26react_native_ble_plx_swift8BleErrorV", "toJSResult"]
+- ["26react_native_ble_plx_swift8BleErrorV", "toJS"]
+- ["26react_native_ble_plx_swift8BleErrorV", "callReject"]
+- ["26react_native_ble_plx_swift8BleErrorV", "callReject"]
+- ["26react_native_ble_plx_swift7RxErrorO", "bleError"]
+- ["s5ErrorP", "bleError"]
+- ["s5ErrorP", "bleError"]
+- ["Sq", "bleError"]
+- ["26react_native_ble_plx_swift14BluetoothErrorO", "bleError"]
+- ["26react_native_ble_plx_swift8BleErrorV", "cancelled"]
+- ["26react_native_ble_plx_swift8BleErrorV", "invalidIdentifiers"]
+- ["26react_native_ble_plx_swift8BleErrorV", "invalidIdentifiers"]
+- ["26react_native_ble_plx_swift8BleErrorV", "peripheralNotFound"]
+- ["26react_native_ble_plx_swift8BleErrorV", "peripheralNotConnected"]
+- ["26react_native_ble_plx_swift8BleErrorV", "characteristicNotFound"]
+- ["26react_native_ble_plx_swift8BleErrorV", "invalidWriteDataForCharacteristic"]
+- ["26react_native_ble_plx_swift8BleErrorV", "invalidWriteDataForDescriptor"]
+- ["26react_native_ble_plx_swift8BleErrorV", "serviceNotFound"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- "=="
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "BleError"
+- "BleErrorCode"
+- "BluetoothError"
+- !private "CBATTError"
+- !private "CBError"
+- "Error"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- !private "NSNull"
+- "Optional"
+- "Reject"
+- "RxError"
+- "SafePromise"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "~="
+depends-member:
+- !private ["Sa", "joined"]
+- !private ["s13ArrayProtocolP", "joined"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "joined"]
+- !private ["Sz", "description"]
+- ["26react_native_ble_plx_swift8BleErrorV", "BleError"]
+- ["26react_native_ble_plx_swift8BleErrorV", "BleErrorCode"]
+- ["26react_native_ble_plx_swift8BleErrorV", "Int"]
+- !private ["26react_native_ble_plx_swift8BleErrorV", "NSNull"]
+- ["26react_native_ble_plx_swift8BleErrorV", "Reject"]
+- ["26react_native_ble_plx_swift8BleErrorV", "SafePromise"]
+- ["26react_native_ble_plx_swift8BleErrorV", "String"]
+- ["26react_native_ble_plx_swift8BleErrorV", "_code"]
+- ["26react_native_ble_plx_swift8BleErrorV", "_domain"]
+- ["26react_native_ble_plx_swift8BleErrorV", "_getEmbeddedNSError"]
+- ["26react_native_ble_plx_swift8BleErrorV", "_userInfo"]
+- ["26react_native_ble_plx_swift8BleErrorV", "attErrorCode"]
+- ["26react_native_ble_plx_swift8BleErrorV", "callReject"]
+- ["26react_native_ble_plx_swift8BleErrorV", "cancelled"]
+- ["26react_native_ble_plx_swift8BleErrorV", "characteristicNotFound"]
+- ["26react_native_ble_plx_swift8BleErrorV", "characteristicUUID"]
+- ["26react_native_ble_plx_swift8BleErrorV", "deinit"]
+- ["26react_native_ble_plx_swift8BleErrorV", "descriptorUUID"]
+- ["26react_native_ble_plx_swift8BleErrorV", "deviceID"]
+- ["26react_native_ble_plx_swift8BleErrorV", "errorCode"]
+- ["26react_native_ble_plx_swift8BleErrorV", "init"]
+- ["26react_native_ble_plx_swift8BleErrorV", "internalMessage"]
+- ["26react_native_ble_plx_swift8BleErrorV", "invalidIdentifiers"]
+- ["26react_native_ble_plx_swift8BleErrorV", "invalidWriteDataForCharacteristic"]
+- ["26react_native_ble_plx_swift8BleErrorV", "invalidWriteDataForDescriptor"]
+- ["26react_native_ble_plx_swift8BleErrorV", "iosErrorCode"]
+- ["26react_native_ble_plx_swift8BleErrorV", "peripheralNotConnected"]
+- ["26react_native_ble_plx_swift8BleErrorV", "peripheralNotFound"]
+- ["26react_native_ble_plx_swift8BleErrorV", "reason"]
+- ["26react_native_ble_plx_swift8BleErrorV", "serviceNotFound"]
+- ["26react_native_ble_plx_swift8BleErrorV", "serviceUUID"]
+- ["26react_native_ble_plx_swift8BleErrorV", "toJS"]
+- ["26react_native_ble_plx_swift8BleErrorV", "toJSResult"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "BluetoothInUnknownState"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "BluetoothManagerDestroyed"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "BluetoothPoweredOff"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "BluetoothResetting"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "BluetoothStateChangeFailed"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "BluetoothUnauthorized"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "BluetoothUnsupported"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "CharacteristicInvalidDataFormat"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "CharacteristicNotFound"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "CharacteristicNotifyChangeFailed"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "CharacteristicReadFailed"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "CharacteristicWriteFailed"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "CharacteristicsDiscoveryFailed"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "CharacteristicsNotDiscovered"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "DescriptorInvalidDataFormat"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "DescriptorNotFound"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "DescriptorReadFailed"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "DescriptorWriteFailed"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "DescriptorsDiscoveryFailed"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "DescriptorsNotDiscovered"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "DeviceAlreadyConnected"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "DeviceConnectionFailed"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "DeviceDisconnected"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "DeviceMTUChangeFailed"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "DeviceNotConnected"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "DeviceNotFound"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "DeviceRSSIReadFailed"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "IncludedServicesDiscoveryFailed"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "InvalidIdentifiers"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "LocationServicesDisabled"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "OperationCancelled"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "OperationStartFailed"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "OperationTimedOut"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "RawValue"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "ScanStartFailed"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "ServiceNotFound"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "ServicesDiscoveryFailed"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "ServicesNotDiscovered"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "UnknownError"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "_Default_RawValue"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "deinit"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "hash"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "hashValue"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "init"]
+- ["26react_native_ble_plx_swift12BleErrorCodeO", "rawValue"]
+- ["26react_native_ble_plx_swift14BluetoothErrorO", "BleError"]
+- ["26react_native_ble_plx_swift14BluetoothErrorO", "bleError"]
+- ["26react_native_ble_plx_swift14BluetoothErrorO", "bluetoothInUnknownState"]
+- ["26react_native_ble_plx_swift14BluetoothErrorO", "bluetoothPoweredOff"]
+- ["26react_native_ble_plx_swift14BluetoothErrorO", "bluetoothResetting"]
+- ["26react_native_ble_plx_swift14BluetoothErrorO", "bluetoothUnauthorized"]
+- ["26react_native_ble_plx_swift14BluetoothErrorO", "bluetoothUnsupported"]
+- ["26react_native_ble_plx_swift14BluetoothErrorO", "characteristicNotifyChangeFailed"]
+- ["26react_native_ble_plx_swift14BluetoothErrorO", "characteristicReadFailed"]
+- ["26react_native_ble_plx_swift14BluetoothErrorO", "characteristicWriteFailed"]
+- ["26react_native_ble_plx_swift14BluetoothErrorO", "characteristicsDiscoveryFailed"]
+- !private ["26react_native_ble_plx_swift14BluetoothErrorO", "deinit"]
+- ["26react_native_ble_plx_swift14BluetoothErrorO", "descriptorReadFailed"]
+- ["26react_native_ble_plx_swift14BluetoothErrorO", "descriptorWriteFailed"]
+- ["26react_native_ble_plx_swift14BluetoothErrorO", "descriptorsDiscoveryFailed"]
+- ["26react_native_ble_plx_swift14BluetoothErrorO", "destroyed"]
+- ["26react_native_ble_plx_swift14BluetoothErrorO", "includedServicesDiscoveryFailed"]
+- ["26react_native_ble_plx_swift14BluetoothErrorO", "peripheralConnectionFailed"]
+- ["26react_native_ble_plx_swift14BluetoothErrorO", "peripheralDisconnected"]
+- ["26react_native_ble_plx_swift14BluetoothErrorO", "peripheralRSSIReadFailed"]
+- ["26react_native_ble_plx_swift14BluetoothErrorO", "servicesDiscoveryFailed"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So8CAActionP", "init"]
+- !private ["SC10CBATTErrorLeV", "errorCode"]
+- !private ["SC7CBErrorLeV", "errorCode"]
+- !private ["So6CBUUIDC", "fullUUIDString"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "description"]
+- !private ["s7CVarArgP", "fullUUIDString"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["26react_native_ble_plx_swift14CharacteristicC", "deinit"]
+- !private ["26react_native_ble_plx_swift14CharacteristicC", "service"]
+- !private ["26react_native_ble_plx_swift14CharacteristicC", "uuid"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "joined"]
+- !private ["SL", "description"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "BleError"]
+- ["s28CustomDebugStringConvertibleP", "Error"]
+- ["s28CustomDebugStringConvertibleP", "argumentOutOfRange"]
+- !private ["s28CustomDebugStringConvertibleP", "bleError"]
+- ["s28CustomDebugStringConvertibleP", "disposed"]
+- !private ["s28CustomDebugStringConvertibleP", "fullUUIDString"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "localizedDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- ["s28CustomDebugStringConvertibleP", "moreThanOneElement"]
+- ["s28CustomDebugStringConvertibleP", "noElements"]
+- ["s28CustomDebugStringConvertibleP", "overflow"]
+- ["s28CustomDebugStringConvertibleP", "timeout"]
+- ["s28CustomDebugStringConvertibleP", "unknown"]
+- !private ["s28CustomDebugStringConvertibleP", "uuidString"]
+- !private ["10Foundation13CustomNSErrorP", "errorCode"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "description"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "BleError"]
+- ["s17CustomReflectableP", "Error"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "bleError"]
+- !private ["s17CustomReflectableP", "description"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "uuidString"]
+- !private ["s23CustomStringConvertibleP", "BleError"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "bleError"]
+- ["s23CustomStringConvertibleP", "bluetoothInUnknownState"]
+- ["s23CustomStringConvertibleP", "bluetoothPoweredOff"]
+- ["s23CustomStringConvertibleP", "bluetoothResetting"]
+- ["s23CustomStringConvertibleP", "bluetoothUnauthorized"]
+- ["s23CustomStringConvertibleP", "bluetoothUnsupported"]
+- ["s23CustomStringConvertibleP", "characteristicNotifyChangeFailed"]
+- ["s23CustomStringConvertibleP", "characteristicReadFailed"]
+- ["s23CustomStringConvertibleP", "characteristicWriteFailed"]
+- ["s23CustomStringConvertibleP", "characteristicsDiscoveryFailed"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "descriptorReadFailed"]
+- ["s23CustomStringConvertibleP", "descriptorWriteFailed"]
+- ["s23CustomStringConvertibleP", "descriptorsDiscoveryFailed"]
+- ["s23CustomStringConvertibleP", "destroyed"]
+- !private ["s23CustomStringConvertibleP", "fullUUIDString"]
+- ["s23CustomStringConvertibleP", "includedServicesDiscoveryFailed"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- ["s23CustomStringConvertibleP", "peripheralConnectionFailed"]
+- ["s23CustomStringConvertibleP", "peripheralDisconnected"]
+- ["s23CustomStringConvertibleP", "peripheralRSSIReadFailed"]
+- ["s23CustomStringConvertibleP", "servicesDiscoveryFailed"]
+- !private ["s23CustomStringConvertibleP", "uuidString"]
+- !private ["Se", "BleError"]
+- ["Se", "Error"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "bleError"]
+- !private ["Se", "description"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "joined"]
+- !private ["Se", "map"]
+- !private ["Se", "uuidString"]
+- !private ["26react_native_ble_plx_swift10DescriptorC", "characteristic"]
+- !private ["26react_native_ble_plx_swift10DescriptorC", "uuid"]
+- !private ["SE", "BleError"]
+- ["SE", "Error"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "bleError"]
+- !private ["SE", "description"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "joined"]
+- !private ["SE", "map"]
+- !private ["SE", "uuidString"]
+- !private ["SQ", "BleError"]
+- !private ["SQ", "BluetoothInUnknownState"]
+- !private ["SQ", "BluetoothManagerDestroyed"]
+- !private ["SQ", "BluetoothPoweredOff"]
+- !private ["SQ", "BluetoothResetting"]
+- !private ["SQ", "BluetoothUnauthorized"]
+- !private ["SQ", "BluetoothUnsupported"]
+- !private ["SQ", "CharacteristicInvalidDataFormat"]
+- !private ["SQ", "CharacteristicNotFound"]
+- !private ["SQ", "CharacteristicNotifyChangeFailed"]
+- !private ["SQ", "CharacteristicReadFailed"]
+- !private ["SQ", "CharacteristicWriteFailed"]
+- !private ["SQ", "CharacteristicsDiscoveryFailed"]
+- !private ["SQ", "DescriptorInvalidDataFormat"]
+- !private ["SQ", "DescriptorReadFailed"]
+- !private ["SQ", "DescriptorWriteFailed"]
+- !private ["SQ", "DescriptorsDiscoveryFailed"]
+- !private ["SQ", "DeviceConnectionFailed"]
+- !private ["SQ", "DeviceDisconnected"]
+- !private ["SQ", "DeviceNotConnected"]
+- !private ["SQ", "DeviceNotFound"]
+- !private ["SQ", "DeviceRSSIReadFailed"]
+- ["SQ", "Error"]
+- !private ["SQ", "IncludedServicesDiscoveryFailed"]
+- !private ["SQ", "InvalidIdentifiers"]
+- !private ["SQ", "OperationCancelled"]
+- !private ["SQ", "OperationTimedOut"]
+- ["SQ", "RawValue"]
+- !private ["SQ", "ServiceNotFound"]
+- !private ["SQ", "ServicesDiscoveryFailed"]
+- !private ["SQ", "UnknownError"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "bleError"]
+- ["SQ", "bluetoothInUnknownState"]
+- ["SQ", "bluetoothPoweredOff"]
+- ["SQ", "bluetoothResetting"]
+- ["SQ", "bluetoothUnauthorized"]
+- ["SQ", "bluetoothUnsupported"]
+- !private ["SQ", "characteristic"]
+- ["SQ", "characteristicNotifyChangeFailed"]
+- ["SQ", "characteristicReadFailed"]
+- ["SQ", "characteristicWriteFailed"]
+- ["SQ", "characteristicsDiscoveryFailed"]
+- !private ["SQ", "description"]
+- ["SQ", "descriptorReadFailed"]
+- ["SQ", "descriptorWriteFailed"]
+- ["SQ", "descriptorsDiscoveryFailed"]
+- ["SQ", "destroyed"]
+- !private ["SQ", "errorCode"]
+- !private ["SQ", "fullUUIDString"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "identifier"]
+- ["SQ", "includedServicesDiscoveryFailed"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "joined"]
+- !private ["SQ", "map"]
+- !private ["SQ", "peripheral"]
+- ["SQ", "peripheralConnectionFailed"]
+- ["SQ", "peripheralDisconnected"]
+- ["SQ", "peripheralRSSIReadFailed"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "service"]
+- ["SQ", "servicesDiscoveryFailed"]
+- !private ["SQ", "uuid"]
+- !private ["SQ", "uuidString"]
+- ["s5ErrorP", "BleError"]
+- ["s5ErrorP", "BleErrorCode"]
+- !private ["s5ErrorP", "BluetoothError"]
+- !private ["s5ErrorP", "CBATTError"]
+- !private ["s5ErrorP", "CBError"]
+- !private ["s5ErrorP", "NSNull"]
+- !private ["s5ErrorP", "RxError"]
+- ["s5ErrorP", "String"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "argumentOutOfRange"]
+- !private ["s5ErrorP", "attErrorCode"]
+- ["s5ErrorP", "bleError"]
+- ["s5ErrorP", "bluetoothInUnknownState"]
+- ["s5ErrorP", "bluetoothPoweredOff"]
+- ["s5ErrorP", "bluetoothResetting"]
+- ["s5ErrorP", "bluetoothUnauthorized"]
+- ["s5ErrorP", "bluetoothUnsupported"]
+- ["s5ErrorP", "characteristicNotifyChangeFailed"]
+- ["s5ErrorP", "characteristicReadFailed"]
+- !private ["s5ErrorP", "characteristicUUID"]
+- ["s5ErrorP", "characteristicWriteFailed"]
+- ["s5ErrorP", "characteristicsDiscoveryFailed"]
+- ["s5ErrorP", "descriptorReadFailed"]
+- !private ["s5ErrorP", "descriptorUUID"]
+- ["s5ErrorP", "descriptorWriteFailed"]
+- ["s5ErrorP", "descriptorsDiscoveryFailed"]
+- ["s5ErrorP", "destroyed"]
+- !private ["s5ErrorP", "deviceID"]
+- ["s5ErrorP", "disposed"]
+- !private ["s5ErrorP", "errorCode"]
+- ["s5ErrorP", "includedServicesDiscoveryFailed"]
+- !private ["s5ErrorP", "init"]
+- !private ["s5ErrorP", "internalMessage"]
+- !private ["s5ErrorP", "invalidIdentifiers"]
+- !private ["s5ErrorP", "iosErrorCode"]
+- !private ["s5ErrorP", "localizedDescription"]
+- ["s5ErrorP", "moreThanOneElement"]
+- ["s5ErrorP", "noElements"]
+- ["s5ErrorP", "overflow"]
+- ["s5ErrorP", "peripheralConnectionFailed"]
+- ["s5ErrorP", "peripheralDisconnected"]
+- ["s5ErrorP", "peripheralRSSIReadFailed"]
+- !private ["s5ErrorP", "reason"]
+- !private ["s5ErrorP", "serviceUUID"]
+- ["s5ErrorP", "servicesDiscoveryFailed"]
+- ["s5ErrorP", "timeout"]
+- !private ["s5ErrorP", "toJS"]
+- ["s5ErrorP", "unknown"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "description"]
+- !private ["s23ExpressibleByNilLiteralP", "BleError"]
+- ["s23ExpressibleByNilLiteralP", "Error"]
+- !private ["s23ExpressibleByNilLiteralP", "bleError"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "description"]
+- !private ["SH", "BleError"]
+- !private ["SH", "BluetoothInUnknownState"]
+- !private ["SH", "BluetoothManagerDestroyed"]
+- !private ["SH", "BluetoothPoweredOff"]
+- !private ["SH", "BluetoothResetting"]
+- !private ["SH", "BluetoothUnauthorized"]
+- !private ["SH", "BluetoothUnsupported"]
+- !private ["SH", "CharacteristicInvalidDataFormat"]
+- !private ["SH", "CharacteristicNotFound"]
+- !private ["SH", "CharacteristicNotifyChangeFailed"]
+- !private ["SH", "CharacteristicReadFailed"]
+- !private ["SH", "CharacteristicWriteFailed"]
+- !private ["SH", "CharacteristicsDiscoveryFailed"]
+- !private ["SH", "DescriptorInvalidDataFormat"]
+- !private ["SH", "DescriptorReadFailed"]
+- !private ["SH", "DescriptorWriteFailed"]
+- !private ["SH", "DescriptorsDiscoveryFailed"]
+- !private ["SH", "DeviceConnectionFailed"]
+- !private ["SH", "DeviceDisconnected"]
+- !private ["SH", "DeviceNotConnected"]
+- !private ["SH", "DeviceNotFound"]
+- !private ["SH", "DeviceRSSIReadFailed"]
+- ["SH", "Error"]
+- !private ["SH", "IncludedServicesDiscoveryFailed"]
+- !private ["SH", "InvalidIdentifiers"]
+- !private ["SH", "OperationCancelled"]
+- !private ["SH", "OperationTimedOut"]
+- ["SH", "RawValue"]
+- !private ["SH", "ServiceNotFound"]
+- !private ["SH", "ServicesDiscoveryFailed"]
+- !private ["SH", "UnknownError"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "bleError"]
+- !private ["SH", "description"]
+- !private ["SH", "errorCode"]
+- !private ["SH", "fullUUIDString"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "joined"]
+- !private ["SH", "map"]
+- ["SH", "rawValue"]
+- !private ["SH", "uuidString"]
+- !private ["s6HasherV", "combine"]
+- !private ["Si", "description"]
+- !private ["26react_native_ble_plx_swift8LoggableP", "fullUUIDString"]
+- !private ["26react_native_ble_plx_swift8LoggableP", "uuidString"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "description"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "description"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "joined"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "fullUUIDString"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So6NSNullC", "init"]
+- !private ["So8NSObjectC", "fullUUIDString"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectP", "fullUUIDString"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["Sj", "description"]
+- ["Sq", "BleError"]
+- ["Sq", "BleErrorCode"]
+- ["Sq", "Error"]
+- ["Sq", "String"]
+- ["Sq", "bleError"]
+- !private ["Sq", "map"]
+- !private ["26react_native_ble_plx_swift10PeripheralC", "identifier"]
+- !private ["Sk", "joined"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "joined"]
+- !private ["SY", "BluetoothInUnknownState"]
+- !private ["SY", "BluetoothManagerDestroyed"]
+- !private ["SY", "BluetoothPoweredOff"]
+- !private ["SY", "BluetoothResetting"]
+- !private ["SY", "BluetoothUnauthorized"]
+- !private ["SY", "BluetoothUnsupported"]
+- !private ["SY", "CharacteristicInvalidDataFormat"]
+- !private ["SY", "CharacteristicNotFound"]
+- !private ["SY", "CharacteristicNotifyChangeFailed"]
+- !private ["SY", "CharacteristicReadFailed"]
+- !private ["SY", "CharacteristicWriteFailed"]
+- !private ["SY", "CharacteristicsDiscoveryFailed"]
+- !private ["SY", "DescriptorInvalidDataFormat"]
+- !private ["SY", "DescriptorReadFailed"]
+- !private ["SY", "DescriptorWriteFailed"]
+- !private ["SY", "DescriptorsDiscoveryFailed"]
+- !private ["SY", "DeviceConnectionFailed"]
+- !private ["SY", "DeviceDisconnected"]
+- !private ["SY", "DeviceNotConnected"]
+- !private ["SY", "DeviceNotFound"]
+- !private ["SY", "DeviceRSSIReadFailed"]
+- !private ["SY", "IncludedServicesDiscoveryFailed"]
+- !private ["SY", "InvalidIdentifiers"]
+- !private ["SY", "OperationCancelled"]
+- !private ["SY", "OperationTimedOut"]
+- ["SY", "RawValue"]
+- !private ["SY", "ServiceNotFound"]
+- !private ["SY", "ServicesDiscoveryFailed"]
+- !private ["SY", "UnknownError"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["26react_native_ble_plx_swift18ReactiveCompatibleP", "fullUUIDString"]
+- !private ["26react_native_ble_plx_swift18ReactiveCompatibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "uuidString"]
+- ["26react_native_ble_plx_swift7RxErrorO", "BleError"]
+- ["26react_native_ble_plx_swift7RxErrorO", "argumentOutOfRange"]
+- ["26react_native_ble_plx_swift7RxErrorO", "bleError"]
+- !private ["26react_native_ble_plx_swift7RxErrorO", "deinit"]
+- ["26react_native_ble_plx_swift7RxErrorO", "disposed"]
+- !private ["26react_native_ble_plx_swift7RxErrorO", "localizedDescription"]
+- ["26react_native_ble_plx_swift7RxErrorO", "moreThanOneElement"]
+- ["26react_native_ble_plx_swift7RxErrorO", "noElements"]
+- ["26react_native_ble_plx_swift7RxErrorO", "overflow"]
+- ["26react_native_ble_plx_swift7RxErrorO", "timeout"]
+- ["26react_native_ble_plx_swift7RxErrorO", "unknown"]
+- !private ["26react_native_ble_plx_swift11SafePromiseC", "reject"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "joined"]
+- !private ["26react_native_ble_plx_swift7ServiceC", "deinit"]
+- !private ["26react_native_ble_plx_swift7ServiceC", "peripheral"]
+- !private ["26react_native_ble_plx_swift7ServiceC", "uuid"]
+- !private ["SZ", "description"]
+- !private ["s13SignedNumericP", "description"]
+- !private ["Sx", "description"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation4UUIDV", "uuidString"]
+- !private ["26react_native_ble_plx_swift16UUIDIdentifiableP", "peripheral"]
+- !private ["26react_native_ble_plx_swift16UUIDIdentifiableP", "service"]
+- !private ["26react_native_ble_plx_swift16UUIDIdentifiableP", "uuid"]
+- !private ["s18_BitwiseOperationsP", "description"]
+- !private ["10Foundation21_BridgedStoredNSErrorP", "errorCode"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "description"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "description"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "joined"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fullUUIDString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "BleError"]
+- ["s21_ObjectiveCBridgeableP", "Error"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "bleError"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "uuidString"]
+- !private ["10Foundation26_ObjectiveCBridgeableErrorP", "errorCode"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "Sz"
+- "26react_native_ble_plx_swift8BleErrorV"
+- "26react_native_ble_plx_swift12BleErrorCodeO"
+- "26react_native_ble_plx_swift14BluetoothErrorO"
+- !private "Sb"
+- !private "So8CAActionP"
+- !private "SC10CBATTErrorLeV"
+- !private "SC7CBErrorLeV"
+- !private "So6CBUUIDC"
+- !private "s7CVarArgP"
+- !private "26react_native_ble_plx_swift14CharacteristicC"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "10Foundation13CustomNSErrorP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "26react_native_ble_plx_swift10DescriptorC"
+- "SE"
+- "SQ"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "s6HasherV"
+- !private "Si"
+- !private "26react_native_ble_plx_swift8LoggableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So6NSNullC"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sj"
+- "Sq"
+- !private "26react_native_ble_plx_swift10PeripheralC"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "26react_native_ble_plx_swift18ReactiveCompatibleP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "26react_native_ble_plx_swift7RxErrorO"
+- !private "26react_native_ble_plx_swift11SafePromiseC"
+- !private "ST"
+- !private "26react_native_ble_plx_swift7ServiceC"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation4UUIDV"
+- !private "26react_native_ble_plx_swift16UUIDIdentifiableP"
+- !private "s18_BitwiseOperationsP"
+- !private "10Foundation21_BridgedStoredNSErrorP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "10Foundation26_ObjectiveCBridgeableErrorP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Public/react_native_ble_plx_swift/react-native-ble-plx-swift-umbrella.h"
+- "/Users/olivia/eziot/ble-connections/ble-app/ios/Pods/Headers/Public/react_native_ble_plx_swift/react-native-ble-plx-swift.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "782c843965eb24bb78e4e419afdb6d2a"
